@@ -103,7 +103,7 @@ author_profile: true
 ## International Journal Publication
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
-		<a class="thumbnail"><img src="../images/publications/search_and_attack.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
+		<a class="thumbnail"><img src="../images/publications/croffle.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Randomly Shuffled Convolution for Self-Supervised Representation Learning</strong> <br>
@@ -125,12 +125,12 @@ author_profile: true
 
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
-		<a class="thumbnail"><img src="../images/publications/croffle.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
+		<a class="thumbnail"><img src="../images/publications/search_and_attack.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
-    <strong>Randomly Shuffled Convolution for Self-Supervised Representation Learning</strong> <br>
+    <strong>Search-and-Attack: Temporally SparseAdversarial Perturbations on Videos</strong> <br>
     Hwan Heo*, <u><strong>Dohwan Ko</strong></u>*, Jaewon Lee*, Youngjoon Hong, Hyunwoo J. Kim,
-    <div style="color: #2980f1;"><strong>Information Sciences 2023</strong></div>
+    <div style="color: #2980f1;"><strong>IEEE Access 2021</strong></div>
     <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9592758&tag=1"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">paper</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#access2021">bibtex</button>
       <div id="access2021" class="collapse">
