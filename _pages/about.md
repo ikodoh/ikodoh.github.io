@@ -1,50 +1,109 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
+title: "About Me"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hi, I'm Dohwan Ko, a Ph.D. integrated student at <a href="https://mlv.korea.ac.kr/" style="color: #900023; text-decoration: none;">**Machine Learning and Vision Lab (MLV)**</a> in Korea University, under the supervision of Prof.  <a href="https://pages.cs.wisc.edu/~hwkim/" style="color: #900023; text-decoration: none;">**Hyunwoo J. Kim**</a>. 
+I received my B.S. degree in Computer Science and Engineering & Statistics (double-major) in Korea University at Aug. 2022.
+My research interest includes:
+- Computer Vision
+- Graph Neural Networks (GNNs)
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I love playing guitar 🎸 and eating dakgalbi 🐓.
+This is my <a href="../cv.pdf" style="color: #900023; text-decoratio.n: none;">**CV.**</a>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Education
+- **Ph.D.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a> \\
+Mar. 2023 - Current
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- **M.S.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a> \\
+Mar. 2021 - Feb. 2023
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+- **B.S.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoration: none;">**Korea University**</a> \\
+Mar. 2017 - Feb. 2021
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## International Conference Publications
+\* denotes equal contribution 
+- **Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification** \\
+[[paper]](https://arxiv.org/abs/2308.11920) [code] \\
+Injae Kim\*, <b>Jongha Kim</b>\*, Joonmyung Choi, Hyunwoo J. Kim\\
+<span style="color:darkred">**MICCAI Workshop**</span> 2023, 1st International Workshop on Foundation Models for General Medical AI
 
-**Markdown generator**
+- **Object Detection in Aerial Images with Uncertainty-Aware Graph Network** \\
+[[paper]](https://arxiv.org/abs/2208.10781) [code] \\
+<b>Jongha Kim</b>, Jinheon Baek, Sung Ju Hwang\\
+<span style="color:darkred">**ECCV Workshop**</span> 2022, The first workshop on Visual Object-oriented Learning meets Interaction (VOLI): Discovery, Representations, and Applications
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## Domestic Conference Publication
+- **A study on the Measurement System of Apple Sugar Content Based on Smartphone Camera** \\
+Sanghoon Lee, <b>Jongha Kim</b>, Hyemin Song and Hyun Kim \\
+Autumn Annual Conference of IEIE(The Institute of Electronics and Information Engineers) 2019
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## Research Experience
+- **MLAI Lab** \\
+Undergraduate Research Intern at <a href="https://www.mlai-kaist.com/" style="color: #900023; text-decoration: none;">**MLAI**</a> lab at <a href="
+https://www.kaist.ac.kr/en/" style="color: #900023; text-decoration: none;">**KAIST**</a> under supervision of Prof. <a href="http://www.sungjuhwang.com/" style="color: #900023; text-decoration: none;">**Sung Ju Hwang**</a>. \\
+Jun. 2021 - Jul. 2022
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+## Work Experiences
+- **Upstage AI** \\
+Mentor of Computer Vision team of BoostCamp AI Tech 3rd course of <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a>. 
+- **Upstage AI** \\
+Mentor of Computer Vision team led by Prof. <a href="https://ami.postech.ac.kr/members/tae-hyun-oh" style="color: #900023; text-decoration: none;">**Tae Hyun Oh**</a> in BoostCamp AI Tech 2rd course of <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a>.
+- **Upstage AI** \\
+Teaching assistance of Computer Vision team led by Prof. <a href="https://ami.postech.ac.kr/members/tae-hyun-oh" style="color: #900023; text-decoration: none;">**Tae Hyun Oh**</a> in BoostCamp AI Tech 2rd course of <a href="https://www.upstage.ai/" style="color: #900023; text-decoration: none;">**Upstage AI**</a>.
+- **VoyagerX** \\
+Deep learning developer intern of a mobile scanner <a href="https://www.vflat.com/" style="color: #900023; text-decoration: none;">**vFlat**</a>. team at a startup <a href="https://www.voyagerx.com/" style="color: #900023; text-decoration: none;">**VoyagerX**</a>.
+- **Software Maestro** \\
+Developed a moblie application *DalDang* as a 10'th trainee at <a href="https://www.swmaestro.org/sw/main/main.do/" style="color: #900023; text-decoration: none;">**Software Maestro**</a>.
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Domestic Patents
+- **Method for measuring sugar content of apple using image.** \\
+Sanghoon Lee, Hyemin Song, <b>Jongha Kim</b> \\
+Korea Patent No.10-2242155, registrated at Apr 14, 2021.
+
+- **Information providing method and system for sharing fruit information including sugar content information measured through image vision processing.** \\
+Sanghoon Lee, Hyemin Song, <b>Jongha Kim</b>, Hyun Kim \\
+Korea Patent Application No.10-2020-0153010.
+
+
+## Invited Talks
+- **Korea University & LG AI Workshop** \\
+Korea University\\
+February, 2023.
+
+- **Defining and solving problems in deep learning projects** \\
+BoostCamp AI Tech 2nd course\\
+Nov 16, 2021.
+
+  
+
+## Awards & Scholarships
+- **Graduate School Outstanding Freshman Scholarship**, Korea University \\
+Scholarship awarded to an outstanding freshman in graduate school. \\
+Sep. 2022
+
+- **Dean's List**, Korea University \\
+Award given to a undergraduate student with perfect GPA (4.5/4.5) for a semester. \\
+Spring 2019
+
+- **Semester High Honors**, Korea University \\
+Award given to a undergraduate student with high GPA (over 4.0/4.5) for a semester. \\
+Fall 2018, Spring 2019, Fall 2019, Spring 2020, Spring 2021, Fall 2021
+
+- **2020 Agrifood Public Big Data Startup Competition**, Korea Rural Development Administration \\
+2nd place in competition, with *Fruit harvesting and sugar content measurement platform using smartphones*. \\
+Aug 5, 2020
+
+- **National Scholarship for Science and Engineering**, Korea Student Aid Foundation \\
+This scholarship supports undergraduates with strong academic performance in science and engineering, with the purpose of developing future leaders in those fields. \\
+Mar. 2018 - Aug. 2022
+
+## Languages
+- **Korean**, Navite Speaker
+- **English**, TEPS : 525 / 600 (*Near-native level*)
