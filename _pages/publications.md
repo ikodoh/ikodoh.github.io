@@ -59,8 +59,8 @@ author_profile: true
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>MELTR: Meta Loss Transformer for Learning to Fine-tune Video Foundation Models</strong> <br>
-    <u><strong>Dohwan Ko</strong></u>*, Joonmyung Choi*, Hyeong Kyu Choi, Kyoung-woon On, Byungseok Roh, Hyunwoo J. Kim<br>
-    <div style="color: #2980f1;"><strong>ICCV 2023</strong></div>
+    <u><strong>Dohwan Ko</strong></u>*, Joonmyung Choi*, Hyeong Kyu Choi, Kyoung-Woon On, Byungseok Roh, Hyunwoo J. Kim<br>
+    <div style="color: #2980f1;"><strong>CVPR 2023</strong></div>
     <a href="https://arxiv.org/abs/2303.13009"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <a href="https://github.com/mlvlab/MELTR"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#bibtex9">bibtex</button>
@@ -70,6 +70,29 @@ author_profile: true
         author={Ko, Dohwan and Choi, Joonmyung and Choi, Hyeong Kyu and On, Kyoung-Woon and Roh, Byungseok and Kim, Hyunwoo J},
         booktitle={CVPR},
         year={2023}}</tt></pre>
+      </div>
+    <span></span>
+  </div>
+</div>
+<hr>
+
+<div class="row">
+	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
+		<a class="thumbnail"><img src="../images/publications/vt_twins.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
+	</div>
+  <div class="col-xs-12 col-sm-8 col-md-8">
+    <strong>Video-Text Representation Learning via Differentiable Weak Temporal Alignment</strong> <br>
+    <u><strong>Dohwan Ko</strong></u>, Joonmyung Choi, Juyeon Ko, Shinyeong Noh, Kyoung-Woon On, Eun-Sol Kim, Hyunwoo J. Kim<br>
+    <div style="color: #2980f1;"><strong>CVPR 2022</strong></div>
+    <a href="https://arxiv.org/abs/2203.16784"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
+    <a href="https://github.com/mlvlab/VT-TWINS"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
+    <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#bibtex9">bibtex</button>
+      <div id="bibtex9" class="collapse">
+        <pre><tt>@inproceedings{ko2022video,
+        title={Video-Text Representation Learning via Differentiable Weak Temporal Alignment},
+        author={Ko, Dohwan and Choi, Joonmyung and Ko, Juyeon and Noh, Shinyeong and On, Kyoung-Woon and Kim, Eun-Sol and Kim, Hyunwoo J},
+        booktitle={CVPR},
+        year={2022}}</tt></pre>
       </div>
     <span></span>
   </div>
