@@ -8,6 +8,7 @@ author_profile: true
 ## International Conference Publications
 \* denotes equal contribution 
 - **Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification** \\
+<div class="box1">HI</div>
 [[paper]](https://arxiv.org/abs/2308.11920) [code] \\
 Injae Kim\*, <b>Jongha Kim</b>\*, Joonmyung Choi, Hyunwoo J. Kim\\
 <span style="color:darkred">**MICCAI Workshop**</span> 2023, 1st International Workshop on Foundation Models for General Medical AI
