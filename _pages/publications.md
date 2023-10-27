@@ -100,7 +100,7 @@ author_profile: true
 <hr>
 
 
-## International Journal Publication
+## International Journal Publications
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
 		<a class="thumbnail"><img src="../images/publications/croffle.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
