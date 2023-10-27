@@ -30,5 +30,5 @@ Mar. 2021 - Feb. 2023
 Mar. 2017 - Feb. 2021
 
 ## Work Experiences
-- **NAVER** \\
+- **NAVER**, Seongnam, South Korea (Jul. 2020 - Aug. 2020) \\
 Internship at User Feedback Platform of <a href="https://www.naver.com/" style="color: #900023; text-decoration: none;">**NAVER**</a>. 
