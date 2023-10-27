@@ -16,7 +16,7 @@ author_profile: true
     <div style="font-size: medium; color: #2980f1;"><strong>EMNLP 2023 Main</strong></div>
     <a href="https://arxiv.org/abs/2310.15747"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <a href="https://github.com/mlvlab/Flipped-VQA"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
-    <a href="../flipped_vqa_demo.html"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
+    <a href="../_demo/flipped_vqa_demo.html"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#emnlp2023">bibtex</button>
       <div id="emnlp2023" class="collapse">
         <pre><tt>@inproceedings{ko2023large,
