@@ -157,9 +157,7 @@
     <div class="hero-body">
       <img src="./images/publications/flipped_vqa.png"/>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into free-viewpoint portraits.
       </h2>
     </div>
   </div>
@@ -232,31 +230,18 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            Large Language Models (LLMs) have shown remarkable performances on a wide range of natural language understanding and generation tasks. 
+            We observe that the LLMs provide effective priors in exploiting linguistic shortcuts for temporal and causal reasoning in Video Question Answering (VideoQA). 
+            However, such priors often cause suboptimal results on VideoQA by leading the model to overrely on questions, i.e., linguistic bias, while ignoring visual content. 
+            This is also known as 'ungrounded guesses' or 'hallucinations'. 
+            To address this problem while leveraging LLMs’ prior on VideoQA, we propose a novel framework, Flipped-VQA, encouraging the model 
+            to predict all the combinations of ⟨V, Q, A⟩ triplet by flipping the source pair and the target label to understand their complex relationships, 
+            i.e., predict A, Q, and V given a VQ, VA, and QA pairs, respectively. 
+            In this paper, we develop LLaMA-VQA by applying Flipped-VQA to LLaMA, and it outperforms both LLMs-based and non-LLMs-based models on five challenging VideoQA benchmarks. 
+            Furthermore, our Flipped-VQA is a general framework that is applicable to various LLMs (OPT and GPT-J) and consistently improves their performances. 
+            We empirically demonstrate that Flipped-VQA not only enhances the exploitation of linguistic shortcuts but also mitigates the linguistic bias, 
+            which causes incorrect answers over-relying on the question. 
+            Code is available at https://github.com/mlvlab/Flipped-VQA.
           </p>
         </div>
       </div>
