@@ -39,4 +39,4 @@ Internship at User Feedback Platform of <a href="https://www.naver.com/" style="
 [02/28/2023] Our paper **Meta Loss Transformer (MELTR)** has been accepted to CVPR 2023! \\
 [11/11/2022] Our paper **Randomly Shuffled Convolution for Self-Supervised Representation Learning (Croffle)** has been accepted to Information Sciences! \\
 [03/02/2022] Our paper **Video-Text Representation Learning via Differentiable Weak Alignment (VT-TWINS)** has been accepted to CVPR 2022! \\
-[10/30/2021] Our paper **Search-and-Attack: Temporally SparseAdversarial Perturbations on Videos** has been accepted to IEEE Access! \\
+[10/30/2021] Our paper **Search-and-Attack: Temporally SparseAdversarial Perturbations on Videos** has been accepted to IEEE Access!
