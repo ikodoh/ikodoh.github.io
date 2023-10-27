@@ -20,13 +20,13 @@ My research interest includes:
 Here is my <a href="../cv.pdf" style="color: #900023; text-decoratio.n: none;">**CV**</a>.  (last update: Oct. 27, 2023).
 
 ## Education
-- **Ph.D.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a> \\
+- **Ph.D.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a>. \\
 Mar. 2023 - Current
 
-- **M.S.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a> \\
+- **M.S.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a>. \\
 Mar. 2021 - Feb. 2023
 
-- **B.S.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoration.n: none;">**Korea University**</a> \\
+- **B.S.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoration.n: none;">**Korea University**</a>. \\
 Mar. 2017 - Feb. 2021
 
 ## Work Experiences
