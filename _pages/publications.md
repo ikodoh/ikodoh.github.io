@@ -13,22 +13,22 @@ author_profile: true
                 </a>
 	</div>
       <div class="col-xs-12 col-sm-8 col-md-8">
-          <strong>VidChapters-7M: Video Chapters at Scale</strong> <br>
-	<u>Antoine Yang</u>, Arsha Nagrani, Ivan Laptev, Josef Sivic, Cordelia Schmid<br>
-          NeurIPS 2023 Track on Datasets and Benchmarks <br>
-          <a href="https://arxiv.org/pdf/2309.13952.pdf"><button type="button" class="btn btn-primary btn-xs">pdf</button></a>
-	<a href="vidchapters.html"><button type="button" class="btn btn-primary btn-xs">project page</button></a>
+          <strong>Large Language Models are Temporal and Causal Reasoners for Video Question Answering</strong> <br>
+	        <u>Dohwan Ko\*</u>, Ji Soo Lee, Wooyoung Kang, Byungseok Roh, Hyunwoo J. Kim<br>
+          EMNLP 2023 Main<br>
+          <a href="https://arxiv.org/pdf/2309.13952.pdf"><button type="button" class="btn btn-primary btn-sm">pdf</button></a>
+	        <a href="vidchapters.html"><button type="button" class="btn btn-primary btn-sm">project page</button></a>
           <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#bibtex9">bibtex</button>
-	<div id="bibtex9" class="collapse">
-	  <pre><tt>@inproceedings{yang2023vidchapters,
-title={VidChapters-7M: Video Chapters at Scale},
-author={Antoine Yang and Arsha Nagrani and Ivan Laptev and Josef Sivic and Cordelia Schmid},
-booktitle={NeurIPS},
-year = {2023}}</tt></pre>
-	</div>
-	<button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#abstract9">abstract</button>
-	<div id="abstract9" class="collapse">
-        <p style="text-align: justify;">
+            <div id="bibtex9" class="collapse">
+              <pre><tt>@inproceedings{yang2023vidchapters,
+              title={VidChapters-7M: Video Chapters at Scale},
+              author={Antoine Yang and Arsha Nagrani and Ivan Laptev and Josef Sivic and Cordelia Schmid},
+              booktitle={NeurIPS},
+              year = {2023}}</tt></pre>
+            </div>
+	        <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#abstract9">abstract</button>
+	          <div id="abstract9" class="collapse">
+              <p style="text-align: justify;">
 	        Segmenting long videos into chapters enables users to quickly navigate to the information of their interest.
             This important topic has been understudied due to the lack of publicly released datasets.
             To address this issue, we present VidChapters-7M, a dataset of 817K user-chaptered videos including 7M chapters in total.
@@ -45,6 +45,41 @@ year = {2023}}</tt></pre>
           <span></span>
       </div>
     </div>
+
+
+<div class="row pt-2">
+  <div class="col-md-1 col-12"></div>
+  <div class="col-md-11 col-12">
+    <h3 class="secfont text-md-left">Publications</h3>
+    <br>
+    <div class="row mt-2">
+      <div class="col-md-1 pb-3 text-md-right text-left"></div>
+      <div class="col-md-3 col-sm-11 pb-3 text-md-right text-left">
+        <img class="img-fluid rounded paper-img" src="../images/flipped_vqa.png" alt="concept" >
+      </div>
+      <div class="col-md-7 col-sm-12 text-md-left text-center">              
+        <div class="col text-left text-md-left">
+          <h6 class="darkgray"><b>[C13] Text-Conditioned Sampling Framework for Text-to-Image Generation with Masked Generative Models</b></h6>
+    <p class="ssmall authors">Jaewoong Lee*, Sangwon Jang*, Jaehyeong Jo, <u><b>Jaehong Yoon</b></u>, Yunji Kim, Jin-Hwa Kim, Jung-Woo Ha, Sung Ju Hwang</p>
+    <span class="conf">ICCV 2023 </span>&nbsp;<b> <b class="small"></b></b>
+    <h6 class="black">
+      <a href="https://hello3196.github.io/TCTS_FAS/" target="_blank"><span class="badge badge-project">Project Page</span></a>
+      <a href="https://arxiv.org/pdf/2304.01515.pdf" target="_blank"><span class="badge badge-pdf">Paper</span></a>
+      <!-- <span class="badge badge-tbd">Code</span></a> -->
+      <a type="button" class="badge badge-bibtex" href="javascript:void(0)" onclick="show('bibc13')">BibTeX</a>          
+    </h6>
+    <div id="bibc13"  class="popup">
+      @article{lee2023text,<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;title={Text-Conditioned Sampling Framework for Text-to-Image Generation with Masked Generative Models},<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;author={Lee, Jaewoong and Jang, Sangwon and Jo, Jaehyeong and Yoon, Jaehong and Kim, Yunji and Kim, Jin-Hwa and Ha, Jung-Woo and Hwang, Sung Ju},<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;journal={International Conference on Computer Vision},<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;year={2023},<br>                
+      }
+    </div>                  
+        </div>              
+      </div>
+    </div>         
+    <hr />
 
 
 \* denotes equal contribution 
