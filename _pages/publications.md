@@ -13,11 +13,11 @@ author_profile: true
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Large Language Models are Temporal and Causal Reasoners for Video Question Answering</strong> <br>
     <u><strong>Dohwan Ko</strong></u>*, Ji Soo Lee*, Wooyoung Kang, Byungseok Roh, Hyunwoo J. Kim<br>
-    <span style="color:#9628b8;">**EMNLP 2023 Main**</span>
-    <a href="https://arxiv.org/abs/2310.15747"><button type="button" style="color: #fff; background-color: #007bff; border-color: #007bff;" class="btn btn-primary btn-sm">arxiv</button></a>
-    <a href="https://github.com/antoyang/VidChapters"><button type="button" style="color: #fff; background-color: #007bff; border-color: #007bff;" class="btn btn-primary btn-sm">code</button></a>
-    <a href="vidchapters.html"><button type="button" style="color: #fff; background-color: #007bff; border-color: #007bff;" class="btn btn-primary btn-sm">project page</button></a>
-    <button type="button" style="color: #fff; background-color: #007bff; border-color: #007bff;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#bibtex9">bibtex</button>
+    <div style="color: #2980f1;"><strong>EMNLP 2023 Main</div>
+    <a href="https://arxiv.org/abs/2310.15747"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
+    <a href="https://github.com/antoyang/VidChapters"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
+    <a href="vidchapters.html"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
+    <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#bibtex9">bibtex</button>
       <div id="bibtex9" class="collapse">
         <pre><tt>@inproceedings{ko2023large,
         title={Large Language Models are Temporal and Causal Reasoners for Video Question Answering},
