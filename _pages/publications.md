@@ -13,7 +13,7 @@ author_profile: true
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Large Language Models are Temporal and Causal Reasoners for Video Question Answering</strong> <br>
     <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>*, Ji Soo Lee*, Wooyoung Kang, Byungseok Roh, Hyunwoo J. Kim<br></span>
-    <div style="color: #2980f1;"><strong>EMNLP 2023 Main</strong></div>
+    <div style="font-size: medium; color: #2980f1;"><strong>EMNLP 2023 Main</strong></div>
     <a href="https://arxiv.org/abs/2310.15747"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <a href="https://github.com/mlvlab/Flipped-VQA"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
     <a href="vidchapters.html"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
