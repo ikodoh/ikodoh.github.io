@@ -8,7 +8,7 @@ author_profile: true
 ## International Conference Publications
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
-		<a class="thumbnail"><img src="../images/flipped_vqa.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
+		<a class="thumbnail"><img src="../images/publications/flipped_vqa.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Large Language Models are Temporal and Causal Reasoners for Video Question Answering</strong> <br>
@@ -23,15 +23,16 @@ author_profile: true
         title={Large Language Models are Temporal and Causal Reasoners for Video Question Answering},
         author={Dohwan Ko and Ji Soo Lee and Wooyoung Kang and Byungseok Roh and Hyunwoo J. Kim},
         booktitle={EMNLP},
-        year = {2023}}</tt></pre>
+        year={2023}}</tt></pre>
       </div>
     <span></span>
   </div>
 </div>
+<hr>
 
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
-		<a class="thumbnail"><img src="../images/flipped_vqa.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
+		<a class="thumbnail"><img src="../images/publications/ovqa.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Open-Vocabulary Video Question Answering: A New Benchmark for Evaluating the Generalizability of Video Question Answering Models</strong> <br>
@@ -41,25 +42,40 @@ author_profile: true
     <a href="https://github.com/mlvlab/OVQA"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#bibtex9">bibtex</button>
       <div id="bibtex9" class="collapse">
-        <pre><tt>@inproceedings{ko2023large,
-        title={Large Language Models are Temporal and Causal Reasoners for Video Question Answering},
-        author={Dohwan Ko and Ji Soo Lee and Wooyoung Kang and Byungseok Roh and Hyunwoo J. Kim},
-        booktitle={EMNLP},
-        year = {2023}}</tt></pre>
+        <pre><tt>@inproceedings{ko2023open,
+        title={Open-vocabulary Video Question Answering: A New Benchmark for Evaluating the Generalizability of Video Question Answering Models},
+        author={Ko, Dohwan and Lee, Ji Soo and Choi, Miso and Chu, Jaewon and Park, Jihwan and Kim, Hyunwoo J},
+        booktitle={ICCV},
+        year={2023}}</tt></pre>
       </div>
     <span></span>
   </div>
 </div>
+<hr>
 
-- **Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification** \\
-[[paper]](https://arxiv.org/abs/2308.11920) [code] \\
-Injae Kim\*, <b>Jongha Kim</b>\*, Joonmyung Choi, Hyunwoo J. Kim\\
-<span style="color:darkred">**MICCAI Workshop**</span> 2023, 1st International Workshop on Foundation Models for General Medical AI
+<div class="row">
+	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
+		<a class="thumbnail"><img src="../images/publications/meltr.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
+	</div>
+  <div class="col-xs-12 col-sm-8 col-md-8">
+    <strong>MELTR: Meta Loss Transformer for Learning to Fine-tune Video Foundation Models</strong> <br>
+    <u><strong>Dohwan Ko</strong></u>*, Joonmyung Choi*, Hyeong Kyu Choi, Kyoung-woon On, Byungseok Roh, Hyunwoo J. Kim<br>
+    <div style="color: #2980f1;"><strong>ICCV 2023</strong></div>
+    <a href="https://arxiv.org/abs/2303.13009"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
+    <a href="https://github.com/mlvlab/MELTR"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
+    <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#bibtex9">bibtex</button>
+      <div id="bibtex9" class="collapse">
+        <pre><tt>@inproceedings{ko2023melrt,
+        title={MELTR: Meta Loss Transformer for Learning to Fine-tune Video Foundation Models},
+        author={Ko, Dohwan and Choi, Joonmyung and Choi, Hyeong Kyu and On, Kyoung-Woon and Roh, Byungseok and Kim, Hyunwoo J},
+        booktitle={CVPR},
+        year={2023}}</tt></pre>
+      </div>
+    <span></span>
+  </div>
+</div>
+<hr>
 
-- **Object Detection in Aerial Images with Uncertainty-Aware Graph Network** \\
-[[paper]](https://arxiv.org/abs/2208.10781) [code] \\
-<b>Jongha Kim</b>, Jinheon Baek, Sung Ju Hwang\\
-<span style="color:darkred">**ECCV Workshop**</span> 2022, The first workshop on Visual Object-oriented Learning meets Interaction (VOLI): Discovery, Representations, and Applications
 
 ## Domestic Conference Publication
 - **A study on the Measurement System of Apple Sugar Content Based on Smartphone Camera** \\
