@@ -32,3 +32,11 @@ Mar. 2017 - Feb. 2021
 ## Work Experiences
 - **NAVER**, Seongnam, South Korea (Jul. 2020 - Aug. 2020) \\
 Internship at User Feedback Platform of <a href="https://www.naver.com/" style="color: #900023; text-decoration: none;">**NAVER**</a>. 
+
+## News
+[10/08/2023] Our paper **Large Language Models are Temporal and Causal Reasoners for Video Question Answering** has been accepted to EMNLP 2023!
+[07/14/2023] Our paper **Open-vocabulary Video Question Answering (OVQA)** has been accepted to ICCV 2023!
+[02/28/2023] Our paper **Meta Loss Transformer (MELTR)** has been accepted to CVPR 2023!
+[11/11/2022] Our paper **Randomly Shuffled Convolution for Self-Supervised Representation Learning (Croffle)** has been accepted to Information Sciences!
+[03/02/2022] Our paper **Video-Text Representation Learning via Differentiable Weak Alignment (VT-TWINS)** has been accepted to CVPR 2022!
+[10/30/2021] Our paper **Search-and-Attack: Temporally SparseAdversarial Perturbations on Videos** has been accepted to IEEE Access!
