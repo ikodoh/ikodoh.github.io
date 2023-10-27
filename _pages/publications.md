@@ -59,4 +59,9 @@ Injae Kim\*, <b>Jongha Kim</b>\*, Joonmyung Choi, Hyunwoo J. Kim\\
 ## Domestic Conference Publication
 - **A study on the Measurement System of Apple Sugar Content Based on Smartphone Camera** \\
 Sanghoon Lee, <b>Jongha Kim</b>, Hyemin Song and Hyun Kim \\
-Autumn Annual Conference of IEIE(The Institute of Electronics and Information Engineers) 2019
+Autumn Annual Conference of IEIE (The Institute of Electronics and Information Engineers) 2019
+
+
+<script src="jq/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/docs.min.js"></script>
