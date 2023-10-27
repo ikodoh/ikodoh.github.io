@@ -14,22 +14,21 @@ author_profile: true
     <strong>Large Language Models are Temporal and Causal Reasoners for Video Question Answering</strong> <br>
     <u>Dohwan Ko*</u>, Ji Soo Lee*, Wooyoung Kang, Byungseok Roh, Hyunwoo J. Kim<br>
     <strong>EMNLP 2023 Main</strong><br>
-    <a href="https://arxiv.org/abs/2310.15747"><button type="button" class="btn btn-primary btn-sm">arxiv</button></a>
-    <a href="vidchapters.html"><button type="button" class="btn btn-primary btn-sm">project page</button></a>
-    <button type="button" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#bibtex9">bibtex</button>
+    <a href="https://arxiv.org/abs/2310.15747"><button type="button" style="color: #fff; background-color: #007bff; border-color: #007bff;" class="btn btn-primary btn-sm">arxiv</button></a>
+    <a href="https://github.com/antoyang/VidChapters"><button type="button" style="color: #fff; background-color: #007bff; border-color: #007bff;" class="btn btn-primary btn-sm">code</button></a>
+    <a href="vidchapters.html"><button type="button" style="color: #fff; background-color: #007bff; border-color: #007bff;" class="btn btn-primary btn-sm">project page</button></a>
+    <button type="button" style="color: #fff; background-color: #007bff; border-color: #007bff;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#bibtex9">bibtex</button>
       <div id="bibtex9" class="collapse">
-        <pre><tt>@inproceedings{yang2023vidchapters,
-        title={VidChapters-7M: Video Chapters at Scale},
-        author={Antoine Yang and Arsha Nagrani and Ivan Laptev and Josef Sivic and Cordelia Schmid},
-        booktitle={NeurIPS},
+        <pre><tt>@inproceedings{ko2023large,
+        title={Large Language Models are Temporal and Causal Reasoners for Video Question Answering},
+        author={Dohwan Ko and Ji Soo Lee and Wooyoung Kang and Byungseok Roh and Hyunwoo J. Kim},
+        booktitle={EMNLP},
         year = {2023}}</tt></pre>
       </div>
-      <a href="https://github.com/antoyang/VidChapters"><button type="button" class="btn btn-primary btn-sm">code</button></a>
-      <span></span>
+    <span></span>
   </div>
 </div>
 
-\* denotes equal contribution 
 - **Concept Bottleneck with Visual Concept Filtering for Explainable Medical Image Classification** \\
 [[paper]](https://arxiv.org/abs/2308.11920) [code] \\
 Injae Kim\*, <b>Jongha Kim</b>\*, Joonmyung Choi, Hyunwoo J. Kim\\
