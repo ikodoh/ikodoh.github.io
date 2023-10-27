@@ -9,13 +9,15 @@ redirect_from:
 ---
 
 Hi, I'm Dohwan Ko, a Ph.D. integrated student at <a href="https://mlv.korea.ac.kr/" style="color: #900023; text-decoration: none;">**Machine Learning and Vision Lab (MLV)**</a> in Korea University, under the supervision of Prof.  <a href="https://pages.cs.wisc.edu/~hwkim/" style="color: #900023; text-decoration: none;">**Hyunwoo J. Kim**</a>. 
-I received my B.S. degree in Computer Science and Engineering & Statistics (double-major) in Korea University at Aug. 2022.
+I received my B.S. degree in Computer Science and Engineering in Korea University at Feb. 2021.
 My research interest includes:
-- Computer Vision
-- Graph Neural Networks (GNNs)
+- Multi-modal Understanding
+- Video Understanding
+- Foundation Models
+- Large Language Models
+- Self-supervised Learning
 
-I love playing guitar 🎸 and eating dakgalbi 🐓.
-This is my <a href="../cv.pdf" style="color: #900023; text-decoratio.n: none;">**CV.**</a>
+Here is my <a href="../cv.pdf" style="color: #900023; text-decoratio.n: none;">**CV.**</a>  (last update: Oct. 27, 2023).
 
 ## Education
 - **Ph.D.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a> \\
