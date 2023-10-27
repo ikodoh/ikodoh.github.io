@@ -36,8 +36,8 @@ author_profile: true
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Open-Vocabulary Video Question Answering: A New Benchmark for Evaluating the Generalizability of Video Question Answering Models</strong> <br>
-    <u><strong>Dohwan Ko</strong></u>, Ji Soo Lee, Miso Choi, Jaewon Chu, Jihwan Park, Hyunwoo J. Kim<br>
-    <div style="color: #2980f1;"><strong>ICCV 2023</strong></div>
+    <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>, Ji Soo Lee, Miso Choi, Jaewon Chu, Jihwan Park, Hyunwoo J. Kim<br></span>
+    <div style="font-size: medium; color: #2980f1;"><strong>ICCV 2023</strong></div>
     <a href="https://arxiv.org/abs/2308.09363"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <a href="https://github.com/mlvlab/OVQA"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#iccv2023">bibtex</button>
@@ -59,8 +59,8 @@ author_profile: true
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>MELTR: Meta Loss Transformer for Learning to Fine-tune Video Foundation Models</strong> <br>
-    <u><strong>Dohwan Ko</strong></u>*, Joonmyung Choi*, Hyeong Kyu Choi, Kyoung-Woon On, Byungseok Roh, Hyunwoo J. Kim<br>
-    <div style="color: #2980f1;"><strong>CVPR 2023</strong></div>
+    <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>*, Joonmyung Choi*, Hyeong Kyu Choi, Kyoung-Woon On, Byungseok Roh, Hyunwoo J. Kim<br></span>
+    <div style="font-size: medium; color: #2980f1;"><strong>CVPR 2023</strong></div>
     <a href="https://arxiv.org/abs/2303.13009"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <a href="https://github.com/mlvlab/MELTR"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#cvpr2023">bibtex</button>
@@ -82,8 +82,8 @@ author_profile: true
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Video-Text Representation Learning via Differentiable Weak Temporal Alignment</strong> <br>
-    <u><strong>Dohwan Ko</strong></u>, Joonmyung Choi, Juyeon Ko, Shinyeong Noh, Kyoung-Woon On, Eun-Sol Kim, Hyunwoo J. Kim<br>
-    <div style="color: #2980f1;"><strong>CVPR 2022</strong></div>
+    <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>, Joonmyung Choi, Juyeon Ko, Shinyeong Noh, Kyoung-Woon On, Eun-Sol Kim, Hyunwoo J. Kim<br></span>
+    <div style="font-size: medium; color: #2980f1;"><strong>CVPR 2022</strong></div>
     <a href="https://arxiv.org/abs/2203.16784"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <a href="https://github.com/mlvlab/VT-TWINS"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#cvpr2022">bibtex</button>
@@ -107,8 +107,8 @@ author_profile: true
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Randomly Shuffled Convolution for Self-Supervised Representation Learning</strong> <br>
-    Youngjin Oh*, Minkyu Jeon*, <u><strong>Dohwan Ko</strong></u>, Hyunwoo J. Kim<br>
-    <div style="color: #2980f1;"><strong>Information Sciences 2023</strong></div>
+    <span style="font-size: medium;">Youngjin Oh*, Minkyu Jeon*, <u><strong>Dohwan Ko</strong></u>, Hyunwoo J. Kim<br></span>
+    <div style="font-size: medium; color: #2980f1;"><strong>Information Sciences 2023</strong></div>
     <a href="https://www.sciencedirect.com/science/article/pii/S0020025522013032"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">paper</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#info2023">bibtex</button>
       <div id="info2023" class="collapse">
@@ -128,9 +128,9 @@ author_profile: true
 		<a class="thumbnail"><img src="../images/publications/search_and_attack.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
-    <strong>Search-and-Attack: Temporally SparseAdversarial Perturbations on Videos</strong> <br>
-    Hwan Heo*, <u><strong>Dohwan Ko</strong></u>*, Jaewon Lee*, Youngjoon Hong, Hyunwoo J. Kim,
-    <div style="color: #2980f1;"><strong>IEEE Access 2021</strong></div>
+    <strong>Search-and-Attack: Temporally SparseAdversarial Perturbations on Videos</strong><br>
+    <span style="font-size: medium;">Hwan Heo*, <u><strong>Dohwan Ko</strong></u>*, Jaewon Lee*, Youngjoon Hong, Hyunwoo J. Kim<br></span>
+    <div style="font-size: medium; color: #2980f1;"><strong>IEEE Access 2021</strong></div>
     <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9592758&tag=1"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">paper</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#access2021">bibtex</button>
       <div id="access2021" class="collapse">
