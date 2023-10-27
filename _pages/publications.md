@@ -11,7 +11,7 @@ author_profile: true
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
 		<a class="thumbnail">
-		<img src="../images/profile.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale">
+		<img src="../images/flipped_vqa.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale">
                 </a>
 	</div>
       <div class="col-xs-12 col-sm-8 col-md-8">
@@ -60,10 +60,3 @@ Injae Kim\*, <b>Jongha Kim</b>\*, Joonmyung Choi, Hyunwoo J. Kim\\
 - **A study on the Measurement System of Apple Sugar Content Based on Smartphone Camera** \\
 Sanghoon Lee, <b>Jongha Kim</b>, Hyemin Song and Hyun Kim \\
 Autumn Annual Conference of IEIE (The Institute of Electronics and Information Engineers) 2019
-
-
-<head>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-</head>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
