@@ -7,15 +7,6 @@
   <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Large Language Models are Temporal and Causal Reasoners for Video Question Answering</title>
-
-  <!-- <script>
-    function onlyOne(checkbox) {
-    var checkboxes = document.getElementsByName('gfg')
-    checkboxes.forEach((item) => {
-        if (item !== checkbox) item.checked = false
-    })
-}
-  </script> -->
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -174,6 +165,43 @@
 </section>
 
 <section class="section">
+  
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Exploiting Linguistic Shortcut</h2>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content">
+          <h3 style="margin: 2px" class="title">Question:</h3>
+          <p>Why did the man in white hold tightly to the boy in white?</p>
+          <h3 style="margin: 2px" class="title">Choices:</h3>
+          <form method="get" action="flipped_vqa_demo.html" id="Form1">
+            <label><input type="radio" name="answer" value="c1"> 1. forcing boy to look straightsss<br></label>
+            <label><input type="radio" name="answer" value="c2"> 2. boy keeps moving around<br></label>
+            <label><input type="radio" name="answer" value="c3"> 3. posing for camera<br></label>
+            <label><input type="radio" name="answer" value="c4"> 4. prevent falling off<br></label>
+            <label><input type="radio" name="answer" value="c5"> 5. dancing with boy<br></label>
+            <p><input type="submit" value="Submit" id="valuesubmit"> <input type="reset" value="Reset"></p>
+          </form>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content">
+            <button class="button is-success is-light" id="toggleButton1">Show Answer</button>
+            <button class="button is-warning is-light" id="toggleButton2">Show Video</button>
+            <p id="answer1" style="display: none;">Answer: 4. prevent falling off</p>
+            <video id="video1" autoplay controls muted playsinline height="100%" style="display: none;">
+              <source src="./static/flipped_vqa/video1.mp4" type="video/mp4">
+            </video>
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--/ Matting. -->
+    
   <div class="container is-max-desktop">
     <hr>
 
@@ -183,18 +211,14 @@
           <h3 style="margin: auto" class="title">Question:</h3>
           <p>Why did the man in white hold tightly to the boy in white?</p>
           <h3 style="margin: auto" class="title">Choices:</h3>
-          <label><input type="radio" name="answer" value="(1)"></label>
-          <!-- <label for="ans1">(1)</label> -->
-          <p style="margin: auto">1. forcing boy to look straight</p>
-          <label><input type="radio" name="answer" value="(2)"></label>
-          <!-- <label for="ans2">(2)</label>  -->
-          <p style="margin: auto">2. boy keeps moving around</p>
-          <label><input type="radio" name="answer" value="(3)"></label>
-          <!-- <label for="ans3">(3)</label> -->
-          <p style="margin: auto">3. posing for camera</p>
-          <p style="margin: auto">4. prevent falling off</p>
-          <p style="margin: auto">5. dancing with boy</p>
-
+          <form method="get" action="flipped_vqa_demo.html">
+            <label><input type="radio" name="answer" value="c1"> 1. forcing boy to look straightsss<br></label>
+            <label><input type="radio" name="answer" value="c2"> 2. boy keeps moving around<br></label>
+            <label><input type="radio" name="answer" value="c3"> 3. posing for camera<br></label>
+            <label><input type="radio" name="answer" value="c4"> 4. prevent falling off<br></label>
+            <label><input type="radio" name="answer" value="c5"> 5. dancing with boy<br></label>
+            <p><input type="submit" value="Submit"> <input type="reset" value="Reset"></p>
+          </form>
             <!-- <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
               <source src="./static/flipped_vqa/video1.mp4"
                       type="video/mp4">
@@ -202,26 +226,6 @@
           </div>
         </div>
   
-      
-
-      <!-- Matting. -->
-      <div class="column">
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Matting. -->
 
     <!-- Animation. -->
     <div class="columns is-centered">
@@ -360,6 +364,31 @@
     </div>
   </div>
 </footer>
+
+<script>
+  document.getElementById('toggleButton1').addEventListener('click', function() {
+    var answerElement = document.getElementById('answer1');
+    if (answerElement.style.display === 'none') {
+      answerElement.style.display = 'block';
+      document.getElementById('toggleButton1').textContent = 'Hide Answer';
+    } else {
+      answerElement.style.display = 'none';
+      document.getElementById('toggleButton1').textContent = 'Show Answer';
+    }
+  });
+
+  document.getElementById('toggleButton2').addEventListener('click', function() {
+    var videoElement = document.getElementById('video1');
+    if (videoElement.style.display === 'none') {
+      videoElement.style.display = 'block';
+      document.getElementById('toggleButton2').textContent = 'Hide Video';
+    } else {
+      videoElement.style.display = 'none';
+      document.getElementById('toggleButton2').textContent = 'Show Video';
+    }
+  });
+
+</script> 
 
 </body>
 </html>
