@@ -167,154 +167,88 @@
 <section class="section">
   
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Exploiting Linguistic Shortcut</h2>
-    <div class="columns is-centered">
-      <div class="column">
-        <div class="content">
-          <h3 style="margin: 2px" class="title">Question:</h3>
-          <p>Why did the man in white hold tightly to the boy in white?</p>
-          <h3 style="margin: 2px" class="title">Choices:</h3>
-          <form method="get" action="flipped_vqa_demo.html" id="Form1">
-            <label><input type="radio" name="answer" value="c1"> 1. forcing boy to look straightsss<br></label>
-            <label><input type="radio" name="answer" value="c2"> 2. boy keeps moving around<br></label>
-            <label><input type="radio" name="answer" value="c3"> 3. posing for camera<br></label>
-            <label><input type="radio" name="answer" value="c4"> 4. prevent falling off<br></label>
-            <label><input type="radio" name="answer" value="c5"> 5. dancing with boy<br></label>
-            <p><input type="submit" value="Submit" id="valuesubmit"> <input type="reset" value="Reset"></p>
-          </form>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="columns is-centered">
-          <div class="column content">
-            <button class="button is-success is-light" id="toggleButton1">Show Answer</button>
-            <button class="button is-warning is-light" id="toggleButton2">Show Video</button>
-            <p id="answer1" style="display: none;">Answer: 4. prevent falling off</p>
-            <video id="video1" autoplay controls muted playsinline height="100%" style="display: none;">
-              <source src="./static/flipped_vqa/video1.mp4" type="video/mp4">
-            </video>
-            
-          </div>
-
-        </div>
+  <hr>
+  <h2 class="title is-3" style="margin: 0px">Exploiting Linguistic Shortcut</h2>
+  <p style="font-size: 20px; margin-bottom: 20px">Try to answer the question given choices without referring to the video.</p>
+  <div class="columns is-centered">
+    <div class="column">
+      <div class="content">
+        <h3 style="margin-bottom: 2px" class="title">Question:</h3>
+        <p>Why did the man in white hold tightly to the boy in white?</p>
+        <h3 style="margin-bottom: 2px" class="title">Choices:</h3>
+        <form method="get" action="flipped_vqa_demo.html" id="Form1">
+          <label id="c1"><input type="radio" name="answer" value="c1"> 1. forcing boy to look straightsss<br></label>
+          <label id="c2"><input type="radio" name="answer" value="c2"> 2. boy keeps moving around<br></label>
+          <label id="c3"><input type="radio" name="answer" value="c3"> 3. posing for camera<br></label>
+          <label id="c4"><input type="radio" name="answer" value="c4"> 4. prevent falling off<br></label>
+          <label id="c5"><input type="radio" name="answer" value="c5"> 5. dancing with boy<br></label>
+        </form>
       </div>
     </div>
-    <!--/ Matting. -->
-    
-  <div class="container is-max-desktop">
-    <hr>
 
+    <div class="column">
       <div class="columns is-centered">
-        <div class="content">
-        <h2 class="title">Exploiting Linguistic Shortcut</h2>
-          <h3 style="margin: auto" class="title">Question:</h3>
-          <p>Why did the man in white hold tightly to the boy in white?</p>
-          <h3 style="margin: auto" class="title">Choices:</h3>
-          <form method="get" action="flipped_vqa_demo.html">
-            <label><input type="radio" name="answer" value="c1"> 1. forcing boy to look straightsss<br></label>
-            <label><input type="radio" name="answer" value="c2"> 2. boy keeps moving around<br></label>
-            <label><input type="radio" name="answer" value="c3"> 3. posing for camera<br></label>
-            <label><input type="radio" name="answer" value="c4"> 4. prevent falling off<br></label>
-            <label><input type="radio" name="answer" value="c5"> 5. dancing with boy<br></label>
-            <p><input type="submit" value="Submit"> <input type="reset" value="Reset"></p>
-          </form>
-            <!-- <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/flipped_vqa/video1.mp4"
-                      type="video/mp4">
-            </video> -->
-          </div>
-        </div>
-  
-
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Exploiting Linguistic Shortcut</h2>
-
-        <h3 style="margin: auto;" class="title is-4">Question:</h3>
-        <div class="content has-text-justified">
-          <p>
-            Why did the man in white hold tightly to the boy in white?
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/>
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
+        <div class="column content">
+          <button class="button is-success is-light" id="toggleButton1">Show Answer</button>
+          <button class="button is-warning is-light" id="toggleButton2">Show Video</button>
+          <p id="gt_answer1" style="display: none; margin: 0px;">GT Answer: 4. prevent falling off</p>
+          <p id="qa_answer1" style="display: none; margin: 0px;">LLaMA-QA Answer: 4. prevent falling off</p>
+          <p id="vqa_answer1" style="display: none; margin: 0px;">LLaMA-VQA Answer: 4. prevent falling off</p>
+          <p id="selected_text" style="display: none;"></p>
+          <video id="video1" autoplay controls muted playsinline height="100%" style="display: none;">
+            <source src="./static/flipped_vqa/video1.mp4" type="video/mp4">
           </video>
+          
         </div>
-        <!--/ Re-rendering. -->
 
       </div>
     </div>
-    <!--/ Animation. -->
+  </div>
+  <br>
+  <p>
+    Our LLaMA-VQA model is effective in exploiting linguistic shortcut where the linguistic prior is correct 
+    (QA model already predicts the right answer soley based on question and choices without referring to the video).
+  </p>
 
+  
+  <br>
 
-    <!-- Concurrent Work. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
+  <h2 class="title is-3">Mitigating Linguistic Bias</h2>
+  <div class="columns is-centered">
+    <div class="column">
+      <div class="content">
+        <h3 style="margin: 2px" class="title">Question:</h3>
+        <p>Why did the man in white hold tightly to the boy in white?</p>
+        <h3 style="margin: 2px" class="title">Choices:</h3>
+        <form method="get" action="flipped_vqa_demo.html" id="Form1">
+          <label id="c1"><input type="radio" name="answer" value="c1"> 1. forcing boy to look straightsss<br></label>
+          <label id="c2"><input type="radio" name="answer" value="c2"> 2. boy keeps moving around<br></label>
+          <label id="c3"><input type="radio" name="answer" value="c3"> 3. posing for camera<br></label>
+          <label id="c4"><input type="radio" name="answer" value="c4"> 4. prevent falling off<br></label>
+          <label id="c5"><input type="radio" name="answer" value="c5"> 5. dancing with boy<br></label>
+        </form>
       </div>
     </div>
-    <!--/ Concurrent Work. -->
+
+    <div class="column">
+      <div class="columns is-centered">
+        <div class="column content">
+          <button class="button is-success is-light" id="toggleButton1">Show Answer</button>
+          <button class="button is-warning is-light" id="toggleButton2">Show Video</button>
+          <p id="gt_answer1" style="display: none; margin: 0px;">GT Answer: 4. prevent falling off</p>
+          <p id="qa_answer1" style="display: none; margin: 0px;">LLaMA-QA Answer: 4. prevent falling off</p>
+          <p id="vqa_answer1" style="display: none; margin: 0px;">LLaMA-VQA Answer: 4. prevent falling off</p>
+          <p id="selected_text" style="display: none;"></p>
+          <video id="video1" autoplay controls muted playsinline height="100%" style="display: none;">
+            <source src="./static/flipped_vqa/video1.mp4" type="video/mp4">
+          </video>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+    
 
   </div>
 </section>
@@ -367,15 +301,44 @@
 
 <script>
   document.getElementById('toggleButton1').addEventListener('click', function() {
-    var answerElement = document.getElementById('answer1');
-    if (answerElement.style.display === 'none') {
-      answerElement.style.display = 'block';
+    var gt_answerElement = document.getElementById('gt_answer1');
+    var qa_answerElement = document.getElementById('qa_answer1');
+    var vqa_answerElement = document.getElementById('vqa_answer1');
+    
+    if (gt_answerElement.style.display === 'none') {
       document.getElementById('toggleButton1').textContent = 'Hide Answer';
+      gt_answerElement.style.display = 'block';
+      qa_answerElement.style.display = 'block';
+      vqa_answerElement.style.display = 'block';
     } else {
-      answerElement.style.display = 'none';
+      gt_answerElement.style.display = 'none';
+      qa_answerElement.style.display = 'none';
+      vqa_answerElement.style.display = 'none';
       document.getElementById('toggleButton1').textContent = 'Show Answer';
     }
   });
+
+
+  document.getElementById('toggleButton1').addEventListener('click', function() {
+    var answerElement = document.getElementById('selected_text');
+    if (answerElement.style.display === 'none') {
+      answerElement.style.display = 'block';
+    } else {
+      answerElement.style.display = 'none';
+    }
+  });
+
+  display_selected = function(){
+    label_id = document.querySelector('input[name="answer"]:checked').value;
+    label_text = "Your Answer: " + document.querySelector('label[id="' + label_id + '"]').innerText;
+    document.querySelector('p[id="selected_text"]').innerText = label_text
+  }
+
+  document.querySelector('label[id="c1"]').addEventListener('click', display_selected);
+  document.querySelector('label[id="c2"]').addEventListener('click', display_selected);
+  document.querySelector('label[id="c3"]').addEventListener('click', display_selected);
+  document.querySelector('label[id="c4"]').addEventListener('click', display_selected);
+  document.querySelector('label[id="c5"]').addEventListener('click', display_selected);
 
   document.getElementById('toggleButton2').addEventListener('click', function() {
     var videoElement = document.getElementById('video1');
