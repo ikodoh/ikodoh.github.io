@@ -496,11 +496,34 @@
 
   // ######################################################## toggle buttion ########################################################
 
-  display_selected1 = function(){
+  display_selected1 = function() {
     label_id = document.querySelector('input[name="answer1"]:checked').value;
-    label_text = "Your Answer: " + document.querySelector('label[id="' + label_id + '"]').innerText;
-    document.querySelector('p[id="selected_text1"]').innerText = label_text
+    label = document.querySelector('label[id="' + label_id + '"]');
+    gt_text = document.querySelector('p[id="gt_answer1"]').innerText;
+    selected_element = document.querySelector('p[id="selected_text1"]');
+    
+    // Clear the previous content and set the default label text
+    selected_element.innerHTML = 'Your Answer: ';
+
+    // Create a new span element for the label text
+    var answerSpan = document.createElement('span');
+    answerSpan.textContent = label.innerText;
+
+    // Extract numeric values to compare
+    gt_idx = gt_text.match(/\d+/)[0];
+    select_idx = label.innerText.match(/\d+/)[0];
+
+    // Compare and set the color accordingly
+    if (gt_idx === select_idx) {
+      answerSpan.style.color = 'blue';
+    } else { 
+      answerSpan.style.color = 'red';
+    }
+    answerSpan.style.fontWeight = 'bold';
+    // Append the span containing the answer text to the paragraph
+    selected_element.appendChild(answerSpan);
   }
+
 
   document.querySelector('label[id="c11"]').addEventListener('click', display_selected1);
   document.querySelector('label[id="c12"]').addEventListener('click', display_selected1);
@@ -508,10 +531,32 @@
   document.querySelector('label[id="c14"]').addEventListener('click', display_selected1);
   document.querySelector('label[id="c15"]').addEventListener('click', display_selected1);
 
-  display_selected2 = function(){
+  display_selected2 = function() {
     label_id = document.querySelector('input[name="answer2"]:checked').value;
-    label_text = "Your Answer: " + document.querySelector('label[id="' + label_id + '"]').innerText;
-    document.querySelector('p[id="selected_text2"]').innerText = label_text
+    label = document.querySelector('label[id="' + label_id + '"]');
+    gt_text = document.querySelector('p[id="gt_answer2"]').innerText;
+    selected_element = document.querySelector('p[id="selected_text2"]');
+    
+    // Clear the previous content and set the default label text
+    selected_element.innerHTML = 'Your Answer: ';
+
+    // Create a new span element for the label text
+    var answerSpan = document.createElement('span');
+    answerSpan.textContent = label.innerText;
+
+    // Extract numeric values to compare
+    gt_idx = gt_text.match(/\d+/)[0];
+    select_idx = label.innerText.match(/\d+/)[0];
+
+    // Compare and set the color accordingly
+    if (gt_idx === select_idx) {
+      answerSpan.style.color = 'blue';
+    } else { 
+      answerSpan.style.color = 'red';
+    }
+    answerSpan.style.fontWeight = 'bold';
+    // Append the span containing the answer text to the paragraph
+    selected_element.appendChild(answerSpan);
   }
 
   document.querySelector('label[id="c21"]').addEventListener('click', display_selected2);
@@ -521,10 +566,32 @@
   document.querySelector('label[id="c25"]').addEventListener('click', display_selected2);
 
 
-  display_selected3 = function(){
+  display_selected3 = function() {
     label_id = document.querySelector('input[name="answer3"]:checked').value;
-    label_text = "Your Answer: " + document.querySelector('label[id="' + label_id + '"]').innerText;
-    document.querySelector('p[id="selected_text3"]').innerText = label_text
+    label = document.querySelector('label[id="' + label_id + '"]');
+    gt_text = document.querySelector('p[id="gt_answer3"]').innerText;
+    selected_element = document.querySelector('p[id="selected_text3"]');
+    
+    // Clear the previous content and set the default label text
+    selected_element.innerHTML = 'Your Answer: ';
+
+    // Create a new span element for the label text
+    var answerSpan = document.createElement('span');
+    answerSpan.textContent = label.innerText;
+
+    // Extract numeric values to compare
+    gt_idx = gt_text.match(/\d+/)[0];
+    select_idx = label.innerText.match(/\d+/)[0];
+
+    // Compare and set the color accordingly
+    if (gt_idx === select_idx) {
+      answerSpan.style.color = 'blue';
+    } else { 
+      answerSpan.style.color = 'red';
+    }
+    answerSpan.style.fontWeight = 'bold';
+    // Append the span containing the answer text to the paragraph
+    selected_element.appendChild(answerSpan);
   }
 
   document.querySelector('label[id="c31"]').addEventListener('click', display_selected3);
@@ -534,10 +601,32 @@
   document.querySelector('label[id="c35"]').addEventListener('click', display_selected3);
 
 
-  display_selected4 = function(){
+  display_selected4 = function() {
     label_id = document.querySelector('input[name="answer4"]:checked').value;
-    label_text = "Your Answer: " + document.querySelector('label[id="' + label_id + '"]').innerText;
-    document.querySelector('p[id="selected_text4"]').innerText = label_text
+    label = document.querySelector('label[id="' + label_id + '"]');
+    gt_text = document.querySelector('p[id="gt_answer4"]').innerText;
+    selected_element = document.querySelector('p[id="selected_text4"]');
+    
+    // Clear the previous content and set the default label text
+    selected_element.innerHTML = 'Your Answer: ';
+
+    // Create a new span element for the label text
+    var answerSpan = document.createElement('span');
+    answerSpan.textContent = label.innerText;
+
+    // Extract numeric values to compare
+    gt_idx = gt_text.match(/\d+/)[0];
+    select_idx = label.innerText.match(/\d+/)[0];
+
+    // Compare and set the color accordingly
+    if (gt_idx === select_idx) {
+      answerSpan.style.color = 'blue';
+    } else { 
+      answerSpan.style.color = 'red';
+    }
+    answerSpan.style.fontWeight = 'bold';
+    // Append the span containing the answer text to the paragraph
+    selected_element.appendChild(answerSpan);
   }
 
   document.querySelector('label[id="c41"]').addEventListener('click', display_selected4);
