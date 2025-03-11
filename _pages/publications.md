@@ -7,8 +7,31 @@ author_profile: true
 
 ## International Conference Publications
 <div class="row">
+	<div class="col-xs-10 col-sm-4 col-md-4" style="height:100px">
+		<a class="thumbnail"><img src="../images/publications/llamo.png" height="100%" alt="llamo"></a>
+	</div>
+  <div class="col-xs-12 col-sm-8 col-md-8">
+    <strong>LLaMo: Large Language Model-based Molecular Graph Assistant</strong> <br>
+    <span style="font-size: medium;">Jinyoung Park, Minseong Bae, <u><strong>Dohwan Ko</strong></u>, Hyunwoo J. Kim<br></span>
+    <div style="font-size: medium; color: #2980f1;"><strong>NeurIPS 2024</strong></div>
+    <a href="https://arxiv.org/abs/2411.00871"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
+    <a href="https://github.com/mlvlab/LLaMo"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
+    <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#neurips2024">bibtex</button>
+      <div id="neurips2024" class="collapse">
+        <pre><tt>@inproceedings{park2024llamo,
+        title={LLaMo: Large Language Model-based Molecular Graph Assistant},
+        author={Park, Jinyoung and Bae, Minseong and Ko, Dohwan and Kim, Hyunwoo J},
+        booktitle={NeurIPS},
+        year={2024}}</tt></pre>
+      </div>
+    <span></span>
+  </div>
+</div>
+<hr>
+
+<div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
-		<a class="thumbnail"><img src="../images/publications/flipped_vqa.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
+		<a class="thumbnail"><img src="../images/publications/flipped_vqa.png" height="100%" alt="flipped_vqa"></a>
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Large Language Models are Temporal and Causal Reasoners for Video Question Answering</strong> <br>
@@ -32,7 +55,7 @@ author_profile: true
 
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
-		<a class="thumbnail"><img src="../images/publications/ovqa.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
+		<a class="thumbnail"><img src="../images/publications/ovqa.png" height="100%" alt="ovqa"></a>
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Open-Vocabulary Video Question Answering: A New Benchmark for Evaluating the Generalizability of Video Question Answering Models</strong> <br>
@@ -55,7 +78,7 @@ author_profile: true
 
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
-		<a class="thumbnail"><img src="../images/publications/meltr.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
+		<a class="thumbnail"><img src="../images/publications/meltr.png" height="100%" alt="meltr"></a>
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>MELTR: Meta Loss Transformer for Learning to Fine-tune Video Foundation Models</strong> <br>
@@ -78,7 +101,7 @@ author_profile: true
 
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
-		<a class="thumbnail"><img src="../images/publications/vt_twins.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
+		<a class="thumbnail"><img src="../images/publications/vt_twins.png" height="100%" alt="vt_twins"></a>
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Video-Text Representation Learning via Differentiable Weak Temporal Alignment</strong> <br>
@@ -103,7 +126,7 @@ author_profile: true
 ## International Journal Publications
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
-		<a class="thumbnail"><img src="../images/publications/croffle.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
+		<a class="thumbnail"><img src="../images/publications/croffle.png" height="100%" alt="croffle"></a>
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Randomly Shuffled Convolution for Self-Supervised Representation Learning</strong> <br>
@@ -125,7 +148,7 @@ author_profile: true
 
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
-		<a class="thumbnail"><img src="../images/publications/search_and_attack.png" height="100%" alt="VidChapters-7M: Video Chapters at Scale"></a>
+		<a class="thumbnail"><img src="../images/publications/search_and_attack.png" height="100%" alt="search_and_attack"></a>
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Search-and-Attack: Temporally SparseAdversarial Perturbations on Videos</strong><br>
