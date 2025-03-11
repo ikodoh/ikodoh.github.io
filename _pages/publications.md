@@ -7,9 +7,11 @@ author_profile: true
 
 ## International Conference Publications
 <div class="row">
-	<div class="col-xs-10 col-sm-4 col-md-4" style="height:100px">
-		<a class="thumbnail"><img src="../images/publications/llamo.png" height="100%" alt="llamo"></a>
-	</div>
+	<div class="col-xs-10 col-sm-4 col-md-4" style="height:170px">
+    <a class="thumbnail">
+        <img src="../images/publications/llamo.png" height="100%" alt="llamo">
+    </a>
+</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>LLaMo: Large Language Model-based Molecular Graph Assistant</strong> <br>
     <span style="font-size: medium;">Jinyoung Park, Minseong Bae, <u><strong>Dohwan Ko</strong></u>, Hyunwoo J. Kim<br></span>
