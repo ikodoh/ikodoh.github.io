@@ -14,7 +14,7 @@ author_profile: true
 </div>
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>ST-VLM: Kinematic Instruction Tuning for Spatio-Temporal Reasoning in Vision-Language Models</strong> <br>
-    <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>, Sihyeon Kim, Yumin Suh, Vijay Kumar, Minseo Yoon, Manmohan Chandraker, Hyunwoo J. Kim<br></span>
+    <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>*, Sihyeon Kim*, Yumin Suh, Vijay Kumar, Minseo Yoon, Manmohan Chandraker, Hyunwoo J. Kim<br></span>
     <div style="font-size: medium; color: #2980f1;"><strong>arXiv 2025</strong></div>
     <a href="https://arxiv.org/abs/2411.00871"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <a href="https://github.com/mlvlab/LLaMo"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
