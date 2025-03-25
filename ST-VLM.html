@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="We investigate that pretrained LLMs' knowledge is a strong prior for temporal and causal reasoning on challenging VideoQA and propose a novel framework, Flipped-VQA, to efficiently fine-tune LLMs on VideoQA by leveraging such LLMs' prior knowledge.">
+  <meta name="keywords" content="Large Language Models, Temporal and Causal Reasoning, Video Question Answering">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Large Language Models are Temporal and Causal Reasoners for Video Question Answering</title>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 style="font-size: 44px;" class="title is-1 publication-title">ST-VLM: Kinematic Instruction Tuning for Spatio-Temporal Reasoning in Vision-Language Models</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><a href="https://ikodoh.github.io">Dohwan Ko</a><sup>1*</sup>,</span>
+            <span class="author-block">Sihyeon Kim<sup>1*</sup>,</span>
+            <span class="author-block"><a href="https://yuminsuh.github.io">Yumin Suh</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://vijaykbg.github.io">Vijay Kumar</a><sup>2</sup>,</span>
+            <br>
+            <span class="author-block">Minseo Yoon<sup>1</sup>,</span>
+            <span class="author-block"><a href="https://cseweb.ucsd.edu/~mkchandraker">Manmohan Chandraker</a><sup>2, 3</sup>,</span>
+            <span class="author-block"><a href="https://mlv.korea.ac.kr">Hyunwoo J. Kim</a><sup>4</sup>,</span>
+          </div>
+          <br>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Korea University</span>&nbsp;&nbsp;
+            <span class="author-block"><sup>2</sup>NEC Labs America</span>&nbsp;&nbsp;
+            <span class="author-block"><sup>3</sup>University of California, San Diego</span>&nbsp;&nbsp;
+            <span class="author-block"><sup>4</sup>KAIST</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2310.15747"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper (soon)</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2310.15747"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv (soon)</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=JeZtxm1OZg0"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video (soon)</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/mlvlab/flipped-vqa"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (soon)</span>
+                  </a>
+              </span>
+              <!-- Hugging Face Link - Option 3: Using an image -->
+              <span class="link-block">
+                <a href="https://huggingface.co/your-model-path"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <img src="./images/logo/huggingface.svg" alt="Huggingface model">
+                  </span>
+                  <span>ST-VLM (soon)</span>
+                </a>
+              </span>
+              
+              <span class="link-block">
+                <a href="https://huggingface.co/your-model-path"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <img src="./images/logo/huggingface.svg" alt="Huggingface dataset">
+                  </span>
+                  <span>STKit (soon)</span>
+                </a>
+              </span>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <hr>
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Spatio-temporal reasoning is essential in understanding real-world environments in various fields, e.g., autonomous driving and sports analytics. 
+            Recent advances have improved the spatial reasoning ability of Vision-Language Models (VLMs) by introducing large-scale data, but these models still struggle to analyze kinematic elements like traveled distance and speed of moving objects. 
+            To bridge this gap, we construct a spatio-temporal reasoning dataset and benchmark involving kinematic instruction tuning, referred to as STKit and STKit-Bench. 
+            They consist of real-world videos with 3D annotations, detailing object motion dynamics: traveled distance, speed, movement direction, inter-object distance comparisons, and relative movement direction. 
+            To further scale such data construction to videos without 3D labels, we propose an automatic pipeline to generate pseudo-labels using 4D reconstruction in real-world scale. 
+            With our kinematic instruction tuning data for spatio-temporal reasoning, we present ST-VLM, a VLM enhanced for spatio-temporal reasoning, which exhibits outstanding performance on STKit-Bench. 
+            Furthermore, we show that ST-VLM generalizes robustly across diverse domains and tasks, outperforming baselines on other spatio-temporal benchmarks (e.g., ActivityNet, TVQA+). 
+            Finally, by integrating learned spatio-temporal reasoning with existing abilities, ST-VLM enables complex multi-step reasoning.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+  <hr>
+    <div class="hero-body">
+      <img src="./images/publications/st_vlm.png"/>
+      <h2 class="subtitle has-text-centered">
+        <span><strong>Illustration of ST-VLM Pseudo-labeling Pipeline.</strong></span>
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser"> 
+  <div class="container is-max-desktop">
+  <hr>
+    <div class="hero-body">
+      <img src="./images/projects/st_vlm/5.png"/>
+      <h2 class="subtitle has-text-centered">
+        <span><strong>Task examples from the proposed STKit-Bench along with predictions from ST-VLM.</strong></span>
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+  <hr>
+    <div class="hero-body">
+      <div class="columns is-centered">
+        <div class="column">
+          <img src="./images/projects/st_vlm/1.png"/>
+        </div>
+        <div class="column">
+          <img src="./images/projects/st_vlm/2.png"/>
+        </div>
+      </div>
+      <h2 class="subtitle" style="text-align: left;">
+        <span><strong>Spatio-temporal reasoning in dynamic videos of moving objects.</strong>
+          (left) A challenging case with a complex trajectory. (right) An emerging capability of ST-VLM.</span>
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser"></section>
+  <div class="container is-max-desktop">
+  <hr>
+    <div class="hero-body">
+      <div class="columns is-centered">
+        <div class="column">
+          <img src="./images/projects/st_vlm/3.png"/>
+        </div>
+        <div class="column">
+          <img src="./images/projects/st_vlm/4.png"/>
+        </div>
+      </div>
+      <h2 class="subtitle has-text-centered">
+        <span><strong>Qualitative results on emerging capabilities of ST-VLM with multi-step reasoning questions.</strong></span>
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
