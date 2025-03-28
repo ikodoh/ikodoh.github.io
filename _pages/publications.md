@@ -16,16 +16,15 @@ author_profile: true
     <strong>ST-VLM: Kinematic Instruction Tuning for Spatio-Temporal Reasoning in Vision-Language Models</strong> <br>
     <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>*, Sihyeon Kim*, Yumin Suh, Vijay Kumar, Minseo Yoon, Manmohan Chandraker, Hyunwoo J. Kim<br></span>
     <div style="font-size: medium; color: #2980f1;"><strong>arXiv 2025</strong></div>
-    <a href="https://arxiv.org/abs/2411.00871"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
-    <a href="https://github.com/mlvlab/LLaMo"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
+    <a href="https://arxiv.org/abs/2503.19355"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
+    <a href="https://github.com/mlvlab/ST-VLM"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
     <a href="../ST-VLM" target="_blank"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#neurips2024">bibtex</button>
       <div id="neurips2024" class="collapse">
-        <pre><tt>@inproceedings{park2024llamo,
-        title={LLaMo: Large Language Model-based Molecular Graph Assistant},
-        author={Park, Jinyoung and Bae, Minseong and Ko, Dohwan and Kim, Hyunwoo J},
-        booktitle={NeurIPS},
-        year={2024}}</tt></pre>
+        <pre><tt>@article{ko2025st,
+        title={ST-VLM: Kinematic Instruction Tuning for Spatio-Temporal Reasoning in Vision-Language Models},
+        author={Ko, Dohwan and Kim, Sihyeon and Suh, Yumin and Yoon, Minseo and Chandraker, Manmohan and Kim, Hyunwoo J and others},
+        year={2025}}</tt></pre>
       </div>
     <span></span>
   </div>
