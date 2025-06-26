@@ -33,6 +33,32 @@ author_profile: true
 
 ## International Conference Publications
 <div class="row">
+	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
+    <a class="thumbnail">
+        <img src="../images/publications/blim.png" height="100%" alt="blim">
+    </a>
+</div>
+  <div class="col-xs-12 col-sm-8 col-md-8">
+    <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</strong> <br>
+    <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>*, Ji Soo Lee*, Minhyuk Choi, Zihang Meng, Hyunwoo J. Kim<br></span>
+    <div style="font-size: medium; color: #2980f1;"><strong>ICCV 2025</strong></div>
+    <!-- <a href=""><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a> -->
+    <!-- <a href="https://github.com/mlvlab/BLiM"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a> -->
+    <!-- <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#neurips2024">bibtex</button>
+      <div id="neurips2024" class="collapse">
+        <pre><tt>@inproceedings{park2024llamo,
+        title={LLaMo: Large Language Model-based Molecular Graph Assistant},
+        author={Park, Jinyoung and Bae, Minseong and Ko, Dohwan and Kim, Hyunwoo J},
+        booktitle={ICCV},
+        year={2025}}</tt></pre>
+      </div> -->
+    <span></span>
+  </div>
+</div>
+<hr>
+
+
+<div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:170px">
     <a class="thumbnail">
         <img src="../images/publications/llamo.png" height="100%" alt="llamo">
