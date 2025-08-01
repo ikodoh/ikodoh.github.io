@@ -29,20 +29,21 @@ Mar. 2017 - Feb. 2021
 ## Work Experiences
 - <img src="../images/logo/meta.png" alt="Meta logo" style="height: 1em;"> **Meta** \\
 Menlo Park, CA, USA (Mar. 2025 - Jun. 2025)  \\
-Research Scientist Intern in Meta Reality Lab. 
+Research Scientist Intern at Meta Reality Labs. 
 
 - <img src="../images/logo/nec.png" alt="NEC logo" style="height: 2em;"> **NEC Labs America** \\
 San Jose, CA, USA (Jun. 2024 - Aug. 2024) \\
-Research Scientist Intern in Media Analytics Team. 
+Research Scientist Intern at Media Analytics Team. 
 
 - <img src="../images/logo/naver.png" alt="NAVER logo" style="height: 1em;"> **NAVER** \\
 Seongnam, South Korea (Jul. 2020 - Aug. 2020) \\
-Internship at User Feedback Platform. 
+Intern at User Feedback Platform. 
 
 ## News
 <div class="news-item">
   <span class="news-date">Jun. 2025</span>&nbsp;&nbsp;
-  <span class="news-content">Our paper <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</strong> has been accepted to ICCV 2025!</span>
+  <span class="news-content">Our paper <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</strong> has been accepted to ICCV 2025 as a <strong>Highlight</strong>!</span>
+  <!-- <span class="news-content">Our paper <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</strong> has been accepted to ICCV 2025 (Highlight)!</span> -->
 </div>
 
 <div class="news-item">

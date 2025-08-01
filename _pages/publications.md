@@ -15,12 +15,12 @@ author_profile: true
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>ST-VLM: Kinematic Instruction Tuning for Spatio-Temporal Reasoning in Vision-Language Models</strong> <br>
     <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>*, Sihyeon Kim*, Yumin Suh, Vijay Kumar, Minseo Yoon, Manmohan Chandraker, Hyunwoo J. Kim<br></span>
-    <div style="font-size: medium; color: #2980f1;"><strong>arXiv 2025</strong></div>
+    <div style="font-size: medium; color: #2980f1;"><strong>arXiv preprint 2025</strong></div>
     <a href="https://arxiv.org/abs/2503.19355"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <a href="https://github.com/mlvlab/ST-VLM"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
     <a href="../ST-VLM" target="_blank"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
-    <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#neurips2024">bibtex</button>
-      <div id="neurips2024" class="collapse">
+    <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#arxiv2025">bibtex</button>
+      <div id="arxiv2025" class="collapse">
         <pre><tt>@article{ko2025st,
         title={ST-VLM: Kinematic Instruction Tuning for Spatio-Temporal Reasoning in Vision-Language Models},
         author={Ko, Dohwan and Kim, Sihyeon and Suh, Yumin and Yoon, Minseo and Chandraker, Manmohan and Kim, Hyunwoo J and others},
@@ -42,16 +42,17 @@ author_profile: true
     <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</strong> <br>
     <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>*, Ji Soo Lee*, Minhyuk Choi, Zihang Meng, Hyunwoo J. Kim<br></span>
     <div style="font-size: medium; color: #2980f1;"><strong>ICCV 2025</strong></div>
-    <!-- <a href=""><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a> -->
-    <!-- <a href="https://github.com/mlvlab/BLiM"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a> -->
-    <!-- <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#neurips2024">bibtex</button>
-      <div id="neurips2024" class="collapse">
-        <pre><tt>@inproceedings{park2024llamo,
-        title={LLaMo: Large Language Model-based Molecular Graph Assistant},
-        author={Park, Jinyoung and Bae, Minseong and Ko, Dohwan and Kim, Hyunwoo J},
+    <a href="https://arxiv.org/abs/2507.23284"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
+    <a href="https://github.com/mlvlab/BLiM"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
+    <a href="../BLiM" target="_blank"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
+    <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#iccv2025">bibtex</button>
+      <div id="iccv2025" class="collapse">
+        <pre><tt>@inproceedings{ko2025bidirectional,
+        title={Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval},
+        author={Ko, Dohwan and Lee, Ji Soo and Choi, Minhyuk and Meng, Zihang and Kim, Hyunwoo J},
         booktitle={ICCV},
         year={2025}}</tt></pre>
-      </div> -->
+      </div>
     <span></span>
   </div>
 </div>

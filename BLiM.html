@@ -44,30 +44,28 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 style="font-size: 44px;" class="title is-1 publication-title">ST-VLM: Kinematic Instruction Tuning for Spatio-Temporal Reasoning in Vision-Language Models</h1>
+          <h1 style="font-size: 40px;" class="title is-1 publication-title">Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block"><a href="https://ikodoh.github.io">Dohwan Ko</a><sup>1*</sup>,</span>
-            <span class="author-block">Sihyeon Kim<sup>1*</sup>,</span>
-            <span class="author-block"><a href="https://yuminsuh.github.io">Yumin Suh</a><sup>2</sup>,</span>
-            <span class="author-block"><a href="https://vijaykbg.github.io">Vijay Kumar</a><sup>2</sup>,</span>
-            <br>
-            <span class="author-block">Minseo Yoon<sup>1</sup>,</span>
-            <span class="author-block"><a href="https://cseweb.ucsd.edu/~mkchandraker">Manmohan Chandraker</a><sup>2, 3</sup>,</span>
-            <span class="author-block"><a href="https://mlv.kaist.ac.kr">Hyunwoo J. Kim</a><sup>4</sup>,</span>
+            <span class="author-block">Ji Soo Lee<sup>1*</sup>,</span>
+            <span class="author-block">Minhyuk Choi<sup>1*</sup>,</span>
+            <span class="author-block"><a href="https://pages.cs.wisc.edu/~zihangm/">Zihang Meng</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://mlv.kaist.ac.kr">Hyunwoo J. Kim</a><sup>3</sup>,</span>
           </div>
           <br>
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>Korea University</span>&nbsp;&nbsp;
-            <span class="author-block"><sup>2</sup>NEC Labs America</span>&nbsp;&nbsp;
-            <span class="author-block"><sup>3</sup>University of California, San Diego</span>&nbsp;&nbsp;
-            <span class="author-block"><sup>4</sup>KAIST</span>
+            <span class="author-block"><sup>2</sup>Meta GenAI</span>&nbsp;&nbsp;
+            <span class="author-block"><sup>3</sup>KAIST</span>
           </div>
+          <br>
+          <div class="is-size-4 publication-venue" style="text-align: center; margin: 0 auto;">ICCV 2025 Highlight</div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2503.19355"
+                <a href="https://arxiv.org/pdf/2507.23284"
                    class="external-link button is-normal is-rounded is-dark"
                    target="_blank" rel="noopener noreferrer">
                   <span class="icon">
@@ -77,7 +75,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2503.19355"
+                <a href="https://arxiv.org/abs/2507.23284"
                    class="external-link button is-normal is-rounded is-dark"
                    target="_blank" rel="noopener noreferrer">
                   <span class="icon">
@@ -88,7 +86,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/mlvlab/ST-VLM"
+                <a href="https://github.com/mlvlab/BLiM"
                    class="external-link button is-normal is-rounded is-dark"
                    target="_blank" rel="noopener noreferrer">
                   <span class="icon">
@@ -110,24 +108,13 @@
               </span>
               <!-- Hugging Face Link - Option 3: Using an image -->
               <span class="link-block">
-                <a href=""
+                <a href="https://huggingface.co/datasets/ikodoh/BLiM-Data"
                    class="external-link button is-normal is-rounded is-dark"
                    target="_blank" rel="noopener noreferrer">
                   <span class="icon">
                       <img src="./images/logo/huggingface.svg" alt="Huggingface model">
                   </span>
-                  <span>ST-VLM (soon)</span>
-                </a>
-              </span>
-              
-              <span class="link-block">
-                <a href=""
-                   class="external-link button is-normal is-rounded is-dark"
-                   target="_blank" rel="noopener noreferrer">
-                  <span class="icon">
-                      <img src="./images/logo/huggingface.svg" alt="Huggingface dataset">
-                  </span>
-                  <span>STKit (soon)</span>
+                  <span>BLiM-Data</span>
                 </a>
               </span>
 
@@ -149,14 +136,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Spatio-temporal reasoning is essential in understanding real-world environments in various fields, e.g., autonomous driving and sports analytics. 
-            Recent advances have improved the spatial reasoning ability of Vision-Language Models (VLMs) by introducing large-scale data, but these models still struggle to analyze kinematic elements like traveled distance and speed of moving objects. 
-            To bridge this gap, we construct a spatio-temporal reasoning dataset and benchmark involving kinematic instruction tuning, referred to as STKit and STKit-Bench. 
-            They consist of real-world videos with 3D annotations, detailing object motion dynamics: traveled distance, speed, movement direction, inter-object distance comparisons, and relative movement direction. 
-            To further scale such data construction to videos without 3D labels, we propose an automatic pipeline to generate pseudo-labels using 4D reconstruction in real-world scale. 
-            With our kinematic instruction tuning data for spatio-temporal reasoning, we present ST-VLM, a VLM enhanced for spatio-temporal reasoning, which exhibits outstanding performance on STKit-Bench. 
-            Furthermore, we show that ST-VLM generalizes robustly across diverse domains and tasks, outperforming baselines on other spatio-temporal benchmarks (e.g., ActivityNet, TVQA+). 
-            Finally, by integrating learned spatio-temporal reasoning with existing abilities, ST-VLM enables complex multi-step reasoning.
+            Text-Video Retrieval aims to find the most relevant text (or video) candidate given a video (or text) query from largescale online databases. 
+            Recent work leverages multi-modal large language models (MLLMs) to improve retrieval, especially for long or complex query-candidate pairs. 
+            However, we observe that the naive application of MLLMs, i.e., retrieval based on candidate likelihood, introduces candidate prior bias, favoring candidates with inherently higher priors over those more relevant to the query. 
+            To this end, we propose a novel retrieval framework, Bidirectional Likelihood Estimation with MLLM (BLiM), which leverages both query and candidate likelihoods by training the model to generate text from a given video as well as video features from a given text. 
+            Furthermore, we introduce Candidate Prior Normalization (CPN), a simple yet effective training-free score calibration module designed to mitigate candidate prior bias in candidate likelihood. 
+            On four TextVideo Retrieval benchmarks, our BLiM equipped with CPN outperforms previous state-of-the-art models by 6.4 R@1 on average, effectively alleviating candidate prior bias and emphasizing query-candidate relevance. 
+            Our in-depth analysis across various multi-modal tasks beyond retrieval highlights the broad applicability of CPN which enhances visual understanding by reducing reliance on textual priors.
           </p>
         </div>
       </div>
@@ -169,9 +155,9 @@
   <div class="container is-max-desktop">
   <hr>
     <div class="hero-body">
-      <img src="./images/publications/st_vlm.png"/>
+      <img src="./images/publications/blim.png"/>
       <h2 class="subtitle has-text-centered">
-        <span><strong>Illustration of ST-VLM Pseudo-labeling Pipeline.</strong></span>
+        <span><strong>Illustration of BLiM.</strong></span>
       </h2>
     </div>
   </div>
@@ -181,54 +167,13 @@
   <div class="container is-max-desktop">
   <hr>
     <div class="hero-body">
-      <img src="./images/projects/st_vlm/5.png"/>
+      <img src="./images/projects/blim/result.png"/>
       <h2 class="subtitle has-text-centered">
-        <span><strong>Task examples from the proposed STKit-Bench along with predictions from ST-VLM.</strong></span>
+        <span><strong>Results of BLiM on Text-Video Retrieval benchmarks.</strong></span>
       </h2>
     </div>
   </div>
 </section>
-
-
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-  <hr>
-    <div class="hero-body">
-      <div class="columns is-centered">
-        <div class="column">
-          <img src="./images/projects/st_vlm/1.png"/>
-        </div>
-        <div class="column">
-          <img src="./images/projects/st_vlm/2.png"/>
-        </div>
-      </div>
-      <h2 class="subtitle" style="text-align: left;">
-        <span><strong>Spatio-temporal reasoning in dynamic videos of moving objects.</strong>
-          (left) A challenging case with a complex trajectory. (right) An emerging capability of ST-VLM.</span>
-      </h2>
-    </div>
-  </div>
-</section>
-
-<section class="hero teaser"></section>
-  <div class="container is-max-desktop">
-  <hr>
-    <div class="hero-body">
-      <div class="columns is-centered">
-        <div class="column">
-          <img src="./images/projects/st_vlm/3.png"/>
-        </div>
-        <div class="column">
-          <img src="./images/projects/st_vlm/4.png"/>
-        </div>
-      </div>
-      <h2 class="subtitle has-text-centered">
-        <span><strong>Qualitative results on emerging capabilities of ST-VLM with multi-step reasoning questions.</strong></span>
-      </h2>
-    </div>
-  </div>
-</section>
-
 
 <footer class="footer">
   <div class="container">
