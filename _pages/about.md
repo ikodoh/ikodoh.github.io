@@ -43,7 +43,7 @@ Intern at User Feedback Platform.
 ## News
 <div class="news-item">
   <span class="news-date">Jun. 2025</span>&nbsp;&nbsp;
-  <span class="news-content">Our paper <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</strong> has been accepted to ICCV 2025 as a <strong>Highlight</strong>! (top 9.7%)</span>
+  <span class="news-content">Our paper <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval (BLiM)</strong> has been accepted to ICCV 2025 as a <strong>Highlight</strong>! (top 9.7%)</span>
   <!-- <span class="news-content">Our paper <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</strong> has been accepted to ICCV 2025 (Highlight)!</span> -->
 </div>
 
@@ -54,7 +54,7 @@ Intern at User Feedback Platform.
 
 <div class="news-item">
   <span class="news-date">Oct. 2023</span>&nbsp;&nbsp;
-  <span class="news-content">Our paper <strong>Large Language Models are Temporal and Causal Reasoners for Video Question Answering</strong> has been accepted to EMNLP 2023!</span>
+  <span class="news-content">Our paper <strong>Large Language Models are Temporal and Causal Reasoners for Video Question Answering (Flipped-VQA)</strong> has been accepted to EMNLP 2023!</span>
 </div>
 
 <div class="news-item">
@@ -85,7 +85,7 @@ Intern at User Feedback Platform.
 <style>
 .news-item {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   align-items: baseline;
 }
 
