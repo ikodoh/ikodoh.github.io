@@ -8,16 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Dohwan Ko, a Ph.D. student at <a href="https://mlv.kaist.ac.kr/" style="color: #900023; text-decoration: none;">**Machine Learning and Vision Lab (MLV)**</a> in Korea University, under the supervision of Prof.  <a href="https://pages.cs.wisc.edu/~hwkim/" style="color: #900023; text-decoration: none;">**Hyunwoo J. Kim**</a>. 
+Hi, I'm Dohwan Ko, a final-year Ph.D. student at <a href="https://mlv.kaist.ac.kr/" style="color: #900023; text-decoration: none;">**Machine Learning and Vision Lab (MLV)**</a> in Korea University, under the supervision of Prof.  <a href="https://pages.cs.wisc.edu/~hwkim/" style="color: #900023; text-decoration: none;">**Hyunwoo J. Kim**</a>. 
 I received my B.S. degree in Computer Science and Engineering in Korea University at Feb. 2021.
-My research interest includes:
-- Multi-modal Understanding
-- Video Understanding
-- Foundation Models
-- Large Language Models
-- Self-supervised Learning
+I was fortunate to gain research experience through internships at <span style="color: blue;"><strong>Meta Reality Labs</strong></span> and <span style="color: blue;"><strong>NEC Labs America</strong></span>, where my work centered on multi-modal video understanding using large language models and foundation models.
+Currently, my research interest includes:
+- Multi-Modal Agent AI and Reasoning
+- Video Large Language Models and Foundation Models
+- Efficient Multi-Modal Video Understanding
 
-Here is my <a href="../cv.pdf" style="color: #900023; text-decoratio.n: none;">**CV**</a>.  (last update: Jun. 2025).
+Here is my <a href="../CV.pdf" style="color: #900023; text-decoratio.n: none;">**CV**</a>.  (last update: Oct. 2025).
+
+<span style="color: #900023;"><strong>I’m looking for my next position in the industry starting in Spring 2026. If my profile aligns with your institution's needs, I would greatly appreciate the opportunity to connect. <br>Please feel free to reach out at ikdooh[AT]korea.ac.kr.</strong></span>
 
 ## Education
 - **M.S & Ph.D** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a>. \\
@@ -42,7 +43,7 @@ Intern at User Feedback Platform.
 ## News
 <div class="news-item">
   <span class="news-date">Jun. 2025</span>&nbsp;&nbsp;
-  <span class="news-content">Our paper <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</strong> has been accepted to ICCV 2025 as a <strong>Highlight</strong>!</span>
+  <span class="news-content">Our paper <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</strong> has been accepted to ICCV 2025 as a <strong>Highlight</strong>! (top 9.7%)</span>
   <!-- <span class="news-content">Our paper <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</strong> has been accepted to ICCV 2025 (Highlight)!</span> -->
 </div>
 

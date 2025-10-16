@@ -41,7 +41,7 @@ author_profile: true
   <div class="col-xs-12 col-sm-8 col-md-8">
     <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</strong> <br>
     <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>*, Ji Soo Lee*, Minhyuk Choi, Zihang Meng, Hyunwoo J. Kim<br></span>
-    <div style="font-size: medium; color: #2980f1;"><strong>ICCV 2025</strong></div>
+    <div style="font-size: medium; color: #2980f1;"><strong>ICCV 2025 Highlight (top 9.7%)</strong></div>
     <a href="https://arxiv.org/abs/2507.23284"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <a href="https://github.com/mlvlab/BLiM"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
     <a href="../BLiM" target="_blank"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
