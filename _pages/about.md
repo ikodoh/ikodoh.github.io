@@ -16,9 +16,9 @@ Currently, my research interest includes:
 - Video Large Language Models and Foundation Models
 - Efficient Multi-Modal Video Understanding
 
-Here is my <a href="../CV.pdf" style="color: #900023; text-decoratio.n: none;">**CV**</a>.  (last update: Oct. 2025).
+Here is my <a href="../cv.pdf" style="color: #900023; text-decoratio.n: none;">**CV**</a>.  (last update: Dec. 2025).
 
-<span style="color: #900023;"><strong>I’m looking for my next position in the industry starting in Spring 2026. If my profile aligns with your institution's needs, I would greatly appreciate the opportunity to connect. <br>Please feel free to reach out at ikodoh[AT]korea.ac.kr.</strong></span>
+<span style="color: #900023;"><strong>I’m looking for my next position in the industry starting in Fall 2026. If my profile aligns with your institution's needs, I would greatly appreciate the opportunity to connect. <br>Please feel free to reach out at ikodoh[AT]korea.ac.kr.</strong></span>
 
 ## Education
 - **M.S & Ph.D** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a>. \\
