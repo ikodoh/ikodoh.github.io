@@ -29,7 +29,7 @@ Mar. 2017 - Feb. 2021
 
 ## Work Experiences
 - <img src="../images/logo/meta.png" alt="Meta logo" style="height: 1em;"> **Meta** \\
-Menlo Park, CA, USA (April. 2026 - Current)  \\
+Menlo Park, CA, USA (April 2026 - Current)  \\
 Research Scientist Intern at Meta Reality Labs. 
 
 - <img src="../images/logo/meta.png" alt="Meta logo" style="height: 1em;"> **Meta** \\
@@ -46,8 +46,8 @@ Intern at User Feedback Platform.
 
 ## News
 <div class="news-item">
-  <span class="news-date">Jun. 2025</span>&nbsp;&nbsp;
-  <span class="news-content">Two papers <strong>MoE-GRPO</strong> and <string>DocPrune</strong> have been accepted to CVPR 2026!</span>
+  <span class="news-date">Feb. 2026</span>&nbsp;&nbsp;
+  <span class="news-content">Two papers, <strong>MoE-GRPO</strong> and <strong>DocPrune</strong>, have been accepted to CVPR 2026!</span>
 </div>
 
 <div class="news-item">
