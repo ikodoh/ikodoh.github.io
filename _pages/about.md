@@ -16,9 +16,9 @@ Currently, my research interest includes:
 - Video Large Language Models and Foundation Models
 - Efficient Multi-Modal Video Understanding
 
-Here is my <a href="../cv.pdf" style="color: #900023; text-decoratio.n: none;">**CV**</a>.  (last update: Dec. 2025).
+Here is my <a href="../cv.pdf" style="color: #900023; text-decoratio.n: none;">**CV**</a>.  (last update: Feb. 2026).
 
-<span style="color: #900023;"><strong>I’m looking for my next position in the industry starting in Fall 2026. If my profile aligns with your institution's needs, I would greatly appreciate the opportunity to connect. <br>Please feel free to reach out at ikodoh[AT]korea.ac.kr.</strong></span>
+<span style="color: #900023;"><strong>I’m looking for my next position in the industry starting in 2027. If my profile aligns with your institution's needs, I would greatly appreciate the opportunity to connect. <br>Please feel free to reach out at ikodoh[AT]korea.ac.kr.</strong></span>
 
 ## Education
 - **M.S & Ph.D** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a>. \\
@@ -28,6 +28,10 @@ Mar. 2021 - Current
 Mar. 2017 - Feb. 2021
 
 ## Work Experiences
+- <img src="../images/logo/meta.png" alt="Meta logo" style="height: 1em;"> **Meta** \\
+Menlo Park, CA, USA (April. 2026 - Current)  \\
+Research Scientist Intern at Meta Reality Labs. 
+
 - <img src="../images/logo/meta.png" alt="Meta logo" style="height: 1em;"> **Meta** \\
 Menlo Park, CA, USA (Mar. 2025 - Jun. 2025)  \\
 Research Scientist Intern at Meta Reality Labs. 
@@ -43,8 +47,12 @@ Intern at User Feedback Platform.
 ## News
 <div class="news-item">
   <span class="news-date">Jun. 2025</span>&nbsp;&nbsp;
+  <span class="news-content">Two papers <strong>MoE-GRPO</strong> and <string>DocPrune</strong> have been accepted to CVPR 2026!</span>
+</div>
+
+<div class="news-item">
+  <span class="news-date">Jun. 2025</span>&nbsp;&nbsp;
   <span class="news-content">Our paper <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval (BLiM)</strong> has been accepted to ICCV 2025 as a <strong>Highlight</strong>! (top 9.7%)</span>
-  <!-- <span class="news-content">Our paper <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval</strong> has been accepted to ICCV 2025 (Highlight)!</span> -->
 </div>
 
 <div class="news-item">
