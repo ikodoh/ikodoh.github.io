@@ -45,6 +45,7 @@ Seongnam, South Korea (Jul. 2020 -- Aug. 2020) \\
 Intern at User Feedback Platform. 
 
 ## News
+<div class="news-container">
 <div class="news-item">
   <span class="news-date">Jul. 2026</span>&nbsp;&nbsp;
   <span class="news-content">Our paper <strong>VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement</strong> has been accepted to ECCV 2026!</span>
@@ -94,8 +95,29 @@ Intern at User Feedback Platform.
   <span class="news-date">Oct. 2021</span>&nbsp;&nbsp;
   <span class="news-content">Our paper <strong>Search-and-Attack: Temporally Sparse Adversarial Perturbations on Videos</strong> has been accepted to IEEE Access!</span>
 </div>
+</div>
 
 <style>
+.news-container {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.news-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.news-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.news-container::-webkit-scrollbar-thumb {
+  background: #C1121F;
+  border-radius: 4px;
+}
+
 .news-item {
   display: flex;
   margin-bottom: 16px;
