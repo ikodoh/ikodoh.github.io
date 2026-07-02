@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Dohwan Ko, a final-year Ph.D. student at <a href="https://mlv.kaist.ac.kr/" style="color: #900023; text-decoration: none;">**Machine Learning and Vision Lab (MLV)**</a> in Korea University, under the supervision of Prof.  <a href="https://pages.cs.wisc.edu/~hwkim/" style="color: #900023; text-decoration: none;">**Hyunwoo J. Kim**</a>. 
+Hi, I'm Dohwan Ko, a final-year Ph.D. student at <a href="https://mlv.kaist.ac.kr/" style="color: #C1121F; text-decoration: none;">**Machine Learning and Vision Lab (MLV)**</a> in Korea University, under the supervision of Prof.  <a href="https://pages.cs.wisc.edu/~hwkim/" style="color: #C1121F; text-decoration: none;">**Hyunwoo J. Kim**</a>. 
 I received my B.S. degree in Computer Science and Engineering in Korea University at Feb. 2021.
 I was fortunate to gain research experience through internships at <span style="color: blue;"><strong>Meta Reality Labs</strong></span> and <span style="color: blue;"><strong>NEC Labs America</strong></span>, where my work centered on multi-modal video understanding using large language models and foundation models.
 Currently, my research interest includes:
@@ -16,35 +16,40 @@ Currently, my research interest includes:
 - Video Large Language Models and Foundation Models
 - Efficient Multi-Modal Video Understanding
 
-Here is my <a href="../cv.pdf" style="color: #900023; text-decoratio.n: none;">**CV**</a>.  (last update: Feb. 2026).
+Here is my <a href="../CV.pdf" style="color: #C1121F; text-decoratio.n: none;">**CV**</a>.  (last update: Jul. 2026).
 
-<span style="color: #900023;"><strong>I’m looking for my next position in the industry starting in 2027. If my profile aligns with your institution's needs, I would greatly appreciate the opportunity to connect. <br>Please feel free to reach out at ikodoh[AT]korea.ac.kr.</strong></span>
+<span style="color: #C1121F;"><strong>I’m looking for my next position in the industry starting in 2027. If my profile aligns with your institution's needs, I would greatly appreciate the opportunity to connect. <br>Please feel free to reach out at ikodoh[AT]korea.ac.kr.</strong></span>
 
 ## Education
-- **M.S & Ph.D** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoratio.n: none;">**Korea University**</a>. \\
-Mar. 2021 - Current
+- **M.S & Ph.D** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #C1121F; text-decoratio.n: none;">**Korea University**</a>. \\
+Mar. 2021 - Present
 
-- **B.S.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #900023; text-decoration.n: none;">**Korea University**</a>. \\
-Mar. 2017 - Feb. 2021
+- **B.S.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #C1121F; text-decoration.n: none;">**Korea University**</a>. \\
+Mar. 2017 -- Feb. 2021
 
 ## Work Experiences
 - <img src="../images/logo/meta.png" alt="Meta logo" style="height: 1em;"> **Meta** \\
-Menlo Park, CA, USA (April 2026 - Current)  \\
+Menlo Park, CA, USA (April 2026 -- Present)  \\
 Research Scientist Intern at Meta Reality Labs. 
 
 - <img src="../images/logo/meta.png" alt="Meta logo" style="height: 1em;"> **Meta** \\
-Menlo Park, CA, USA (Mar. 2025 - Jun. 2025)  \\
+Menlo Park, CA, USA (Mar. 2025 -- Jun. 2025)  \\
 Research Scientist Intern at Meta Reality Labs. 
 
 - <img src="../images/logo/nec.png" alt="NEC logo" style="height: 2em;"> **NEC Labs America** \\
-San Jose, CA, USA (Jun. 2024 - Aug. 2024) \\
+San Jose, CA, USA (Jun. 2024 -- Aug. 2024) \\
 Research Scientist Intern at Media Analytics Team. 
 
 - <img src="../images/logo/naver.png" alt="NAVER logo" style="height: 1em;"> **NAVER** \\
-Seongnam, South Korea (Jul. 2020 - Aug. 2020) \\
+Seongnam, South Korea (Jul. 2020 -- Aug. 2020) \\
 Intern at User Feedback Platform. 
 
 ## News
+<div class="news-item">
+  <span class="news-date">Jul. 2026</span>&nbsp;&nbsp;
+  <span class="news-content">Our paper <strong>VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement</strong> has been accepted to ECCV 2026!</span>
+</div>
+
 <div class="news-item">
   <span class="news-date">Feb. 2026</span>&nbsp;&nbsp;
   <span class="news-content">Two papers, <strong>MoE-GRPO</strong> and <strong>DocPrune</strong>, have been accepted to CVPR 2026!</span>
@@ -100,7 +105,7 @@ Intern at User Feedback Platform.
 .news-date {
   min-width: 80px;
   font-weight: bold;
-  color: #900023;
+  color: #C1121F;
 }
 
 .news-content {

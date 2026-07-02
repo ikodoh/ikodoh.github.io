@@ -9,6 +9,33 @@ author_profile: true
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
     <a class="thumbnail">
+        <img src="../images/publications/videosearch_r1.png" height="100%" alt="blim">
+    </a>
+</div>
+  <div class="col-xs-12 col-sm-8 col-md-8">
+    <strong>VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement</strong> <br>
+    <span style="font-size: medium;">Seohyun Lee*, Seoung Choi*, <u><strong>Dohwan Ko</strong></u>*, Jongha Kim, Hyunwoo J. Kim<br></span>
+    <div style="font-size: medium; color: #2980f1;"><strong>ECCV 2026</strong></div>
+    <a href="https://arxiv.org/abs/2607.00446"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
+    <a href="https://github.com/mlvlab/VideoSearch-R1"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
+    <a href="https://mlvlab.github.io/VideoSearch-R1" target="_blank"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
+    <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#eccv2026">bibtex</button>
+      <div id="eccv2026" class="collapse">
+        <pre><tt>@inproceedings{lee2026videosearchr1,
+  title={VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement},
+  author={Lee, Seohyun and Choi, Seoung and Ko, Dohwan and Kim, Jongha and Kim, Hyunwoo J.},
+  booktitle={ECCV},
+  year={2026}
+}</tt></pre>
+      </div>
+    <span></span>
+  </div>
+</div>
+<hr>
+
+<div class="row">
+	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
+    <a class="thumbnail">
         <img src="../images/publications/moe-grpo.png" height="100%" alt="blim">
     </a>
 </div>
@@ -16,10 +43,15 @@ author_profile: true
     <strong>MoE-GRPO: Optimizing Mixture-of-Experts via Reinforcement Learning in Vision-Language Models</strong> <br>
     <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>, Jinyoung Park, Seoung Choi, Sanghyeok Lee, Seohyun Lee, Hyunwoo J. Kim<br></span>
     <div style="font-size: medium; color: #2980f1;"><strong>CVPR 2026</strong></div>
-    <a href=""><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
-    <a href=""><button type="button" style="color: #fff; background-color:rgb(6, 7, 7); border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
+    <a href="https://arxiv.org/abs/2603.24984"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#cvpr2026a">bibtex</button>
       <div id="cvpr2026a" class="collapse">
+        <pre><tt>@inproceedings{ko2026moe,
+  title={MoE-GRPO: Optimizing Mixture-of-Experts via Reinforcement Learning in Vision-Language Models},
+  author={Ko, Dohwan and Park, Jinyoung and Choi, Seoung and Lee, Sanghyeok and Lee, Seohyun and Kim, Hyunwoo J},
+  booktitle={CVPR},
+  year={2026}
+}</tt></pre>
       </div>
     <span></span>
   </div>
@@ -36,10 +68,15 @@ author_profile: true
     <strong>DocPrune: Efficient Document Question Answering via Background, Question, and Comprehension-aware Token Pruning</strong> <br>
     <span style="font-size: medium;">Joonmyung Choi, Sanghyeok Lee, Jongha Kim, Sehyung Kim, <u><strong>Dohwan Ko</strong></u>, Jihyung Kil, Hyunwoo J. Kim<br></span>
     <div style="font-size: medium; color: #2980f1;"><strong>CVPR 2026</strong></div>
-    <a href=""><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
-    <a href=""><button type="button" style="color: #fff; background-color:rgb(6, 7, 7); border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
+    <a href="https://arxiv.org/abs/2604.22281"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#cvpr2026b">bibtex</button>
       <div id="cvpr2026b" class="collapse">
+        <pre><tt>@inproceedings{choi2026docprune,
+  title={DocPrune: Efficient Document Question Answering via Background, Question, and Comprehension-aware Token Pruning},
+  author={Choi, Joonmyung and Lee, Sanghyeok and Kim, Jongha and Kim, Sehyung and Ko, Dohwan and Kil, Jihyung and Kim, Hyunwoo J},
+  booktitle={CVPR},
+  year={2026}
+}</tt></pre>
       </div>
     <span></span>
   </div>
@@ -58,14 +95,15 @@ author_profile: true
     <div style="font-size: medium; color: #2980f1;"><strong>ICCV 2025 Highlight (top 9.7%)</strong></div>
     <a href="https://arxiv.org/abs/2507.23284"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <a href="https://github.com/mlvlab/BLiM"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
-    <a href="../BLiM" target="_blank"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
+    <a href="../projects/BLiM" target="_blank"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#iccv2025">bibtex</button>
       <div id="iccv2025" class="collapse">
         <pre><tt>@inproceedings{ko2025bidirectional,
-        title={Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval},
-        author={Ko, Dohwan and Lee, Ji Soo and Choi, Minhyuk and Meng, Zihang and Kim, Hyunwoo J},
-        booktitle={ICCV},
-        year={2025}}</tt></pre>
+  title={Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval},
+  author={Ko, Dohwan and Lee, Ji Soo and Choi, Minhyuk and Meng, Zihang and Kim, Hyunwoo J},
+  booktitle={ICCV},
+  year={2025}
+}</tt></pre>
       </div>
     <span></span>
   </div>
@@ -88,10 +126,11 @@ author_profile: true
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#neurips2024">bibtex</button>
       <div id="neurips2024" class="collapse">
         <pre><tt>@inproceedings{park2024llamo,
-        title={LLaMo: Large Language Model-based Molecular Graph Assistant},
-        author={Park, Jinyoung and Bae, Minseong and Ko, Dohwan and Kim, Hyunwoo J},
-        booktitle={NeurIPS},
-        year={2024}}</tt></pre>
+  title={LLaMo: Large Language Model-based Molecular Graph Assistant},
+  author={Park, Jinyoung and Bae, Minseong and Ko, Dohwan and Kim, Hyunwoo J},
+  booktitle={NeurIPS},
+  year={2024}
+}</tt></pre>
       </div>
     <span></span>
   </div>
@@ -108,14 +147,15 @@ author_profile: true
     <div style="font-size: medium; color: #2980f1;"><strong>EMNLP 2023 Main</strong></div>
     <a href="https://arxiv.org/abs/2310.15747"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <a href="https://github.com/mlvlab/Flipped-VQA"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
-    <a href="../Flipped-VQA" target="_blank"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
+    <a href="../projects/Flipped-VQA" target="_blank"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#emnlp2023">bibtex</button>
       <div id="emnlp2023" class="collapse">
         <pre><tt>@inproceedings{ko2023large,
-        title={Large Language Models are Temporal and Causal Reasoners for Video Question Answering},
-        author={Dohwan Ko and Ji Soo Lee and Wooyoung Kang and Byungseok Roh and Hyunwoo J. Kim},
-        booktitle={EMNLP},
-        year={2023}}</tt></pre>
+  title={Large Language Models are Temporal and Causal Reasoners for Video Question Answering},
+  author={Dohwan Ko and Ji Soo Lee and Wooyoung Kang and Byungseok Roh and Hyunwoo J. Kim},
+  booktitle={EMNLP},
+  year={2023}
+}</tt></pre>
       </div>
     <span></span>
   </div>
@@ -135,10 +175,11 @@ author_profile: true
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#iccv2023">bibtex</button>
       <div id="iccv2023" class="collapse">
         <pre><tt>@inproceedings{ko2023open,
-        title={Open-vocabulary Video Question Answering: A New Benchmark for Evaluating the Generalizability of Video Question Answering Models},
-        author={Ko, Dohwan and Lee, Ji Soo and Choi, Miso and Chu, Jaewon and Park, Jihwan and Kim, Hyunwoo J},
-        booktitle={ICCV},
-        year={2023}}</tt></pre>
+  title={Open-vocabulary Video Question Answering: A New Benchmark for Evaluating the Generalizability of Video Question Answering Models},
+  author={Ko, Dohwan and Lee, Ji Soo and Choi, Miso and Chu, Jaewon and Park, Jihwan and Kim, Hyunwoo J},
+  booktitle={ICCV},
+  year={2023}
+}</tt></pre>
       </div>
     <span></span>
   </div>
@@ -158,10 +199,11 @@ author_profile: true
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#cvpr2023">bibtex</button>
       <div id="cvpr2023" class="collapse">
         <pre><tt>@inproceedings{ko2023melrt,
-        title={MELTR: Meta Loss Transformer for Learning to Fine-tune Video Foundation Models},
-        author={Ko, Dohwan and Choi, Joonmyung and Choi, Hyeong Kyu and On, Kyoung-Woon and Roh, Byungseok and Kim, Hyunwoo J},
-        booktitle={CVPR},
-        year={2023}}</tt></pre>
+  title={MELTR: Meta Loss Transformer for Learning to Fine-tune Video Foundation Models},
+  author={Ko, Dohwan and Choi, Joonmyung and Choi, Hyeong Kyu and On, Kyoung-Woon and Roh, Byungseok and Kim, Hyunwoo J},
+  booktitle={CVPR},
+  year={2023}
+}</tt></pre>
       </div>
     <span></span>
   </div>
@@ -181,10 +223,11 @@ author_profile: true
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#cvpr2022">bibtex</button>
       <div id="cvpr2022" class="collapse">
         <pre><tt>@inproceedings{ko2022video,
-        title={Video-Text Representation Learning via Differentiable Weak Temporal Alignment},
-        author={Ko, Dohwan and Choi, Joonmyung and Ko, Juyeon and Noh, Shinyeong and On, Kyoung-Woon and Kim, Eun-Sol and Kim, Hyunwoo J},
-        booktitle={CVPR},
-        year={2022}}</tt></pre>
+  title={Video-Text Representation Learning via Differentiable Weak Temporal Alignment},
+  author={Ko, Dohwan and Choi, Joonmyung and Ko, Juyeon and Noh, Shinyeong and On, Kyoung-Woon and Kim, Eun-Sol and Kim, Hyunwoo J},
+  booktitle={CVPR},
+  year={2022}
+}</tt></pre>
       </div>
     <span></span>
   </div>
@@ -205,10 +248,11 @@ author_profile: true
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#info2023">bibtex</button>
       <div id="info2023" class="collapse">
         <pre><tt>@article{oh2023randomly,
-        title={Randomly shuffled convolution for self-supervised representation learning},
-        author={Oh, Youngjin and Jeon, Minkyu and Ko, Dohwan and Kim, Hyunwoo J},
-        journal={Information Sciences},
-        year={2023}}</tt></pre>
+  title={Randomly shuffled convolution for self-supervised representation learning},
+  author={Oh, Youngjin and Jeon, Minkyu and Ko, Dohwan and Kim, Hyunwoo J},
+  journal={Information Sciences},
+  year={2023}
+}</tt></pre>
       </div>
     <span></span>
   </div>
@@ -227,10 +271,11 @@ author_profile: true
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#access2021">bibtex</button>
       <div id="access2021" class="collapse">
         <pre><tt>@article{heo2021search,
-        title={Search-and-attack: temporally sparse adversarial perturbations on videos},
-        author={Heo, Hwan and Ko, Dohwan and Lee, Jaewon and Hong, Youngjoon and Kim, Hyunwoo J},
-        journal={IEEE Access},
-        year={2021}}</tt></pre>
+  title={Search-and-attack: temporally sparse adversarial perturbations on videos},
+  author={Heo, Hwan and Ko, Dohwan and Lee, Jaewon and Hong, Youngjoon and Kim, Hyunwoo J},
+  journal={IEEE Access},
+  year={2021}
+}</tt></pre>
       </div>
     <span></span>
   </div>
@@ -250,13 +295,15 @@ author_profile: true
     <div style="font-size: medium; color: #2980f1;"><strong>arXiv preprint 2025</strong></div>
     <a href="https://arxiv.org/abs/2503.19355"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
     <a href="https://github.com/mlvlab/ST-VLM"><button type="button" style="color: #fff; background-color: #95ADB6; border-color: transparent;" class="btn btn-primary btn-sm">code</button></a>
-    <a href="../ST-VLM" target="_blank"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
+    <a href="../projects/ST-VLM" target="_blank"><button type="button" style="color: #fff; background-color: rgb(139, 229, 154); border-color: transparent;" class="btn btn-primary btn-sm">project page</button></a>
     <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#arxiv2025">bibtex</button>
       <div id="arxiv2025" class="collapse">
         <pre><tt>@article{ko2025st,
-        title={ST-VLM: Kinematic Instruction Tuning for Spatio-Temporal Reasoning in Vision-Language Models},
-        author={Ko, Dohwan and Kim, Sihyeon and Suh, Yumin and Yoon, Minseo and Chandraker, Manmohan and Kim, Hyunwoo J and others},
-        year={2025}}</tt></pre>
+  title={St-vlm: Kinematic instruction tuning for spatio-temporal reasoning in vision-language models},
+  author={Ko, Dohwan and Kim, Sihyeon and Suh, Yumin and Yoon, Minseo and Chandraker, Manmohan and Kim, Hyunwoo J and others},
+  journal={arXiv preprint arXiv:2503.19355},
+  year={2025}
+}</tt></pre>
       </div>
     <span></span>
   </div>
