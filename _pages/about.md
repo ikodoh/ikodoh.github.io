@@ -16,7 +16,7 @@ Currently, my research interest includes:
 - Video Large Language Models and Foundation Models
 - Efficient Multi-Modal Video Understanding
 
-Here is my <a href="../CV.pdf" style="color: #C1121F; text-decoratio.n: none;">**CV**</a>.  (last update: Jul. 2026).
+Here is my <a href="../cv.pdf" style="color: #C1121F; text-decoratio.n: none;">**CV**</a>.  (last update: Jul. 2026).
 
 <span style="color: #C1121F;"><strong>I’m looking for my next position in the industry starting in 2027. If my profile aligns with your institution's needs, I would greatly appreciate the opportunity to connect. <br>Please feel free to reach out at ikodoh[AT]korea.ac.kr.</strong></span>
 
