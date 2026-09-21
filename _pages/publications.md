@@ -36,6 +36,31 @@ author_profile: true
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
     <a class="thumbnail">
+        <img src="../images/publications/svmemagent.png" height="100%" alt="svmemagent">
+    </a>
+</div>
+  <div class="col-xs-12 col-sm-8 col-md-8">
+    <strong>SVMemAgent: A Streaming Video Memory Agent for Query-Agnostic Online Frame Selection</strong> <br>
+    <span style="font-size: medium;"><u><strong>Dohwan Ko</strong></u>, Ji Soo Lee, Pierce Chuang, Debojeet Chatterjee, Ashish Shenoy, Yichao Lu, Shane Moon, Luna Dong, Vikas Bhardwaj, Hyunwoo J. Kim<br></span>
+    <div style="font-size: medium; color: #2980f1;"><strong>ECCVW 2026 (Wearable AI Workshop)</strong></div>
+    <a href="https://arxiv.org/abs/2609.18540"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
+    <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#eccvw2026">bibtex</button>
+      <div id="eccvw2026" class="collapse">
+        <pre><tt>@inproceedings{ko2026svmemagent,
+  title={SVMemAgent: A Streaming Video Memory Agent for Query-Agnostic Online Frame Selection},
+  author={Ko, Dohwan and Lee, Ji Soo and Chuang, Pierce and Chatterjee, Debojeet and Shenoy, Ashish and Lu, Yichao and Moon, Shane and Dong, Luna and Bhardwaj, Vikas and Kim, Hyunwoo J.},
+  booktitle={ECCVW},
+  year={2026}
+}</tt></pre>
+      </div>
+    <span></span>
+  </div>
+</div>
+<hr>
+
+<div class="row">
+	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
+    <a class="thumbnail">
         <img src="../images/publications/moe-grpo.png" height="100%" alt="blim">
     </a>
 </div>
@@ -264,7 +289,7 @@ author_profile: true
 		<a class="thumbnail"><img src="../images/publications/search_and_attack.png" height="100%" alt="search_and_attack"></a>
 	</div>
   <div class="col-xs-12 col-sm-8 col-md-8">
-    <strong>Search-and-Attack: Temporally SparseAdversarial Perturbations on Videos</strong><br>
+    <strong>Search-and-Attack: Temporally Sparse Adversarial Perturbations on Videos</strong><br>
     <span style="font-size: medium;">Hwan Heo*, <u><strong>Dohwan Ko</strong></u>*, Jaewon Lee*, Youngjoon Hong, Hyunwoo J. Kim<br></span>
     <div style="font-size: medium; color: #2980f1;"><strong>IEEE Access 2021</strong></div>
     <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9592758&tag=1"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">paper</button></a>
@@ -283,6 +308,31 @@ author_profile: true
 <hr>
 
 ## Preprints
+<div class="row">
+	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
+    <a class="thumbnail">
+        <img src="../images/publications/wearableqa.png" height="100%" alt="wearableqa">
+    </a>
+</div>
+  <div class="col-xs-12 col-sm-8 col-md-8">
+    <strong>WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data</strong> <br>
+    <span style="font-size: medium;">Ji Soo Lee, Xilun Chen, Pierce Chuang, Ashish Shenoy, Jason Wei, <u><strong>Dohwan Ko</strong></u>, Hyunwoo J. Kim, Benoit Corda<br></span>
+    <div style="font-size: medium; color: #2980f1;"><strong>arXiv preprint 2026</strong></div>
+    <a href="https://arxiv.org/abs/2609.05405"><button type="button" style="color: #fff; background-color: rgb(139, 193, 229); border-color: transparent;" class="btn btn-primary btn-sm">arxiv</button></a>
+    <button type="button" style="color: #fff; background-color: #DBC7BE; border-color: transparent;" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#arxiv2026">bibtex</button>
+      <div id="arxiv2026" class="collapse">
+        <pre><tt>@article{lee2026wearableqa,
+  title={WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data},
+  author={Lee, Ji Soo and Chen, Xilun and Chuang, Pierce and Shenoy, Ashish and Wei, Jason and Ko, Dohwan and Kim, Hyunwoo J. and Corda, Benoit},
+  journal={arXiv preprint arXiv:2609.05405},
+  year={2026}
+}</tt></pre>
+      </div>
+    <span></span>
+  </div>
+</div>
+<hr>
+
 <div class="row">
 	<div class="col-xs-10 col-sm-4 col-md-4" style="height:120px">
     <a class="thumbnail">
