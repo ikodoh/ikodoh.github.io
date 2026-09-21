@@ -37,13 +37,6 @@ $pub-btn-bibtex-bg-hover : #cfd8dc;
 $pub-btn-bibtex-fg       : #455a64;
 $pub-btn-bibtex-fg-hover : #263238;
 
-/* Manrope is scoped to this layout only; every other page keeps the theme's
-   system stack. $sans-serif reads var(--site-font, <system stack>), so setting
-   the property here retargets every rule the theme wrote against it. */
-body.layout--archive {
-  --site-font: "Manrope", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-}
-
 .archive {
 
   /* Decorative only, so it is not part of the accessible heading name.
