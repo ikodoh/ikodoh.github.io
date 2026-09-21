@@ -16,20 +16,20 @@ Currently, my research interest includes:
 - Video Large Language Models and Foundation Models
 - Efficient Multi-Modal Video Understanding
 
-Here is my <a href="../cv.pdf" style="color: #C1121F; text-decoratio.n: none;">**CV**</a>.  (last update: Jul. 2026).
+Here is my <a href="../cv.pdf" style="color: #C1121F; text-decoratio.n: none;">**CV**</a>.  (last update: Sep. 2026).
 
 <span style="color: #C1121F;"><strong>I’m looking for my next position in the industry starting in 2027. If my profile aligns with your institution's needs, I would greatly appreciate the opportunity to connect. <br>Please feel free to reach out at ikodoh[AT]korea.ac.kr.</strong></span>
 
 ## Education
 - **M.S & Ph.D** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #C1121F; text-decoratio.n: none;">**Korea University**</a>. \\
-Mar. 2021 - Present
+Mar. 2021 - Feb. 2027 (Expected)
 
 - **B.S.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #C1121F; text-decoration.n: none;">**Korea University**</a>. \\
 Mar. 2017 -- Feb. 2021
 
 ## Work Experiences
 - <img src="../images/logo/meta.png" alt="Meta logo" style="height: 1em;"> **Meta** \\
-Menlo Park, CA, USA (April 2026 -- Present)  \\
+Menlo Park, CA, USA (April 2026 -- Jul. 2026)  \\
 Research Scientist Intern at Meta Reality Labs. 
 
 - <img src="../images/logo/meta.png" alt="Meta logo" style="height: 1em;"> **Meta** \\
@@ -46,6 +46,11 @@ Intern at User Feedback Platform.
 
 ## News
 <div class="news-container">
+<div class="news-item">
+  <span class="news-date">Aug. 2026</span>&nbsp;&nbsp;
+  <span class="news-content">Our paper <strong>SVMemAgent: A Streaming Video Memory Agent for Query-Agnostic Online Frame Selection</strong> has been accepted to the Wearable AI Workshop at ECCV 2026!</span>
+</div>
+
 <div class="news-item">
   <span class="news-date">Jul. 2026</span>&nbsp;&nbsp;
   <span class="news-content">Our paper <strong>VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement</strong> has been accepted to ECCV 2026!</span>
