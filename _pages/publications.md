@@ -5,9 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
-## International Conference Publications
-
-<div class="pub-note"><span>*</span> denotes equal contribution.</div>
+<div class="pub-section">
+  <h2 class="pub-section__title">
+    <span class="pub-section__emoji" aria-hidden="true">📖</span>
+    <span>International Conference Publications</span>
+    <span class="pub-section__count" hidden></span>
+  </h2>
+  <span class="pub-section__line" aria-hidden="true"></span>
+</div>
+<div class="pub-note"><span class="pub-note__star" aria-hidden="true">*</span> denotes equal contribution.</div>
 
 <div class="pub-item">
   <div class="row">
@@ -290,8 +296,14 @@ author_profile: true
 </div>
 
 
-## International Journal Publications
-
+<div class="pub-section">
+  <h2 class="pub-section__title">
+    <span class="pub-section__emoji" aria-hidden="true">📗</span>
+    <span>International Journal Publications</span>
+    <span class="pub-section__count" hidden></span>
+  </h2>
+  <span class="pub-section__line" aria-hidden="true"></span>
+</div>
 <div class="pub-item">
   <div class="row">
     <div class="col-12 col-sm-4">
@@ -347,8 +359,14 @@ author_profile: true
 </div>
 
 
-## Preprints
-
+<div class="pub-section">
+  <h2 class="pub-section__title">
+    <span class="pub-section__emoji" aria-hidden="true">📝</span>
+    <span>Preprints</span>
+    <span class="pub-section__count" hidden></span>
+  </h2>
+  <span class="pub-section__line" aria-hidden="true"></span>
+</div>
 <div class="pub-item">
   <div class="row">
     <div class="col-12 col-sm-4">

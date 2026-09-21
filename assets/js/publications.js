@@ -1,7 +1,10 @@
 /*
- * Adds a "BibTeX / Copy" header bar to each collapsible bibtex block on the
- * publications page. Injected from JS so that with scripting disabled the
- * page degrades to a plain <pre> rather than showing a dead button.
+ * Publications page behaviour:
+ *   1. a "BibTeX / Copy" header bar on each collapsible bibtex block
+ *   2. the paper count shown beside each section heading
+ *
+ * Both are injected from JS so the page degrades cleanly without scripting:
+ * no dead copy button, and no count that could contradict the list.
  */
 (function () {
   'use strict';
@@ -94,9 +97,34 @@
     box.classList.add('has-bar');
   }
 
+  /*
+   * Counts the .pub-item cards between one section heading and the next, so
+   * the badge can never drift out of step with the list it labels.
+   */
+  function countSections() {
+    var slots = document.querySelectorAll('.pub-section__count');
+
+    for (var i = 0; i < slots.length; i++) {
+      var section = slots[i].closest('.pub-section');
+      if (!section) continue;
+
+      var n = 0;
+      var node = section.nextElementSibling;
+      while (node && !node.classList.contains('pub-section')) {
+        if (node.classList.contains('pub-item')) n++;
+        node = node.nextElementSibling;
+      }
+
+      if (!n) continue;
+      slots[i].textContent = n + (n === 1 ? ' paper' : ' papers');
+      slots[i].hidden = false;
+    }
+  }
+
   function init() {
     var boxes = document.querySelectorAll('.pub-bibtex');
     for (var i = 0; i < boxes.length; i++) build(boxes[i]);
+    countSections();
   }
 
   if (document.readyState === 'loading') {

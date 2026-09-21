@@ -37,17 +37,87 @@ $pub-btn-bibtex-bg-hover : #cfd8dc;
 $pub-btn-bibtex-fg       : #455a64;
 $pub-btn-bibtex-fg-hover : #263238;
 
+/* Manrope is scoped to this layout only; every other page keeps the theme's
+   system stack. $sans-serif reads var(--site-font, <system stack>), so setting
+   the property here retargets every rule the theme wrote against it. */
+body.layout--archive {
+  --site-font: "Manrope", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+}
+
 .archive {
+
+  /* Decorative only, so it is not part of the accessible heading name.
+     The gap is a margin, not a space in `content`, which collapses. */
+  .page__title::before {
+    content: "📖";
+    margin-right: 0.35em;
+  }
+
+  .pub-section {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 2.25em 0 1em;
+  }
+
+  .pub-section + .pub-item {
+    margin-top: 0;
+  }
+
+  .pub-section__title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 9px;
+    margin: 0;
+    color: $pub-title-color;
+    font-size: $type-size-4;
+    font-weight: 800;
+    letter-spacing: -0.4px;
+    line-height: 1.25;
+  }
+
+  .pub-section__emoji {
+    font-size: 0.95em;
+    line-height: 1;
+  }
+
+  /* Filled in by publications.js; stays hidden when scripting is off. */
+  .pub-section__count {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 10px;
+    color: $pub-venue-color;
+    font-size: 0.52em;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+    background: rgba(26, 111, 186, 0.08);
+    border: 1px solid rgba(26, 111, 186, 0.18);
+    border-radius: 9999px;
+  }
+
+  .pub-section__line {
+    flex: 1;
+    min-width: 1.5em;
+    height: 1px;
+    background: linear-gradient(90deg, #cfd8dc 0%, rgba(207, 216, 220, 0.15) 100%);
+  }
 
   /* "* denotes equal contribution" */
   .pub-note {
+    display: flex;
+    align-items: center;
+    gap: 6px;
     margin: -0.5em 0 1.5em;
     color: mix(#fff, $text-color, 30%);
     font-size: $type-size-6;
+  }
 
-    span {
-      font-weight: 700;
-    }
+  .pub-note__star {
+    color: $pub-venue-color;
+    font-size: 1.15em;
+    font-weight: 800;
   }
 
   .pub-item {
