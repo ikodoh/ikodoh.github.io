@@ -14,16 +14,18 @@ $pub-author-color  : #455a64;
 /* Button palette — tinted background with same-hue dark text, as used by
    onground-korea.github.io. Every pair clears WCAG AA (4.5:1), resting and
    hover alike; the previous white-on-pastel fills sat at 1.5-2.4:1.
-   The reference's own orange (#EF6C00) only reaches 2.79:1, so project-page
-   text is darkened to Material Deep Orange 900. */
+   Two of the reference's own pairs fall short and are darkened here:
+   its orange (#EF6C00) reaches 2.79:1 and its blue (#0277BD) 4.42:1, so
+   those use Material Deep Orange 900 and Light Blue 900 instead. */
 $pub-btn-arxiv-bg        : rgba(239, 83, 80, 0.1);
 $pub-btn-arxiv-bg-hover  : rgba(239, 83, 80, 0.2);
 $pub-btn-arxiv-fg        : #c62828;
 $pub-btn-arxiv-fg-hover  : #b71c1c;
 
-$pub-btn-code-bg         : #37474f;
-$pub-btn-code-bg-hover   : #263238;
-$pub-btn-code-fg         : #fff;
+$pub-btn-code-bg         : rgba(41, 182, 246, 0.1);
+$pub-btn-code-bg-hover   : rgba(41, 182, 246, 0.2);
+$pub-btn-code-fg         : #01579b;
+$pub-btn-code-fg-hover   : #01416f;
 
 $pub-btn-project-bg      : rgba(255, 167, 38, 0.15);
 $pub-btn-project-bg-hover: rgba(255, 167, 38, 0.25);
@@ -173,7 +175,7 @@ $pub-btn-bibtex-fg-hover : #263238;
 
     &:hover,
     &:focus {
-      color: $pub-btn-code-fg;
+      color: $pub-btn-code-fg-hover;
       background-color: $pub-btn-code-bg-hover;
     }
   }
