@@ -1,0 +1,108 @@
+/* ==========================================================================
+   PROFILE CTA LINKS
+   The CV / Scholar / GitHub / LinkedIn buttons on the About page, after
+   onground-korea.github.io. Each pair clears WCAG AA (4.5:1) resting and
+   on hover; the reference's own LinkedIn blue (#0277BD) sits at 4.34:1,
+   so it is darkened to Material Light Blue 900.
+   ========================================================================== */
+
+.cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 1.25em 0;
+
+  /* Nested so `.cta-group .cta-btn` outweighs the theme's
+     `.page__content a { text-decoration: underline }`. */
+  .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 16px;
+    font-family: $global-font-family;
+    font-size: $type-size-6;
+    font-weight: 700;
+    line-height: 1.3;
+    /* The theme underlines every link inside page content. */
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+
+    svg {
+      flex-shrink: 0;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(#000, 0.08);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+
+    &:focus-visible {
+      outline: 2px solid #1a6fba;
+      outline-offset: 2px;
+    }
+  }
+
+  .cta-btn--cv {
+    color: #00796b;
+    background: rgba(38, 166, 154, 0.1);
+    border-color: rgba(38, 166, 154, 0.2);
+
+    &:hover,
+    &:focus {
+      color: #00695c;
+      background: rgba(38, 166, 154, 0.18);
+    }
+  }
+
+  .cta-btn--scholar {
+    color: #5e35b1;
+    background: rgba(126, 87, 194, 0.08);
+    border-color: rgba(126, 87, 194, 0.15);
+
+    &:hover,
+    &:focus {
+      color: #4527a0;
+      background: rgba(126, 87, 194, 0.15);
+    }
+  }
+
+  .cta-btn--github {
+    color: #37474f;
+    background: rgba(55, 71, 79, 0.08);
+    border-color: rgba(55, 71, 79, 0.15);
+
+    &:hover,
+    &:focus {
+      color: #263238;
+      background: rgba(55, 71, 79, 0.15);
+    }
+  }
+
+  .cta-btn--linkedin {
+    color: #01579b;
+    background: rgba(2, 136, 209, 0.08);
+    border-color: rgba(2, 136, 209, 0.15);
+
+    &:hover,
+    &:focus {
+      color: #01416f;
+      background: rgba(2, 136, 209, 0.15);
+    }
+  }
+}
+
+.cta-note {
+  margin: -0.5em 0 1.5em;
+  color: mix(#fff, $text-color, 30%);
+  font-size: $type-size-6;
+}
