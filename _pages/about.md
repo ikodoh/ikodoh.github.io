@@ -28,7 +28,7 @@ Currently, my research interest includes:
 <h2 class="section-title"><span class="section-title__emoji" aria-hidden="true">🎓</span>Education</h2>
 <div class="card-list">
   <div class="info-card">
-    <div class="info-card__logo info-card__logo--glyph" aria-hidden="true">🎓</div>
+    <div class="info-card__logo"><img src="../images/logo/korea.png" alt="Korea University logo"></div>
     <div class="info-card__body">
       <div class="info-card__head">
         <div>
@@ -41,7 +41,7 @@ Currently, my research interest includes:
     </div>
   </div>
   <div class="info-card">
-    <div class="info-card__logo info-card__logo--glyph" aria-hidden="true">🎓</div>
+    <div class="info-card__logo"><img src="../images/logo/korea.png" alt="Korea University logo"></div>
     <div class="info-card__body">
       <div class="info-card__head">
         <div>

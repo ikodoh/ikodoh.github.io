@@ -80,12 +80,6 @@ h2.section-title {
     object-fit: contain;
   }
 
-  /* Stand-in for sections with no logo file yet. */
-  &--glyph {
-    font-size: 1.6em;
-    line-height: 1;
-  }
-
   @media (max-width: 600px) {
     width: 46px;
     height: 46px;
