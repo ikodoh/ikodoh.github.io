@@ -49,7 +49,7 @@ body.layout--archive {
   /* Decorative only, so it is not part of the accessible heading name.
      The gap is a margin, not a space in `content`, which collapses. */
   .page__title::before {
-    content: "📖";
+    content: "📚";
     margin-right: 0.35em;
   }
 
