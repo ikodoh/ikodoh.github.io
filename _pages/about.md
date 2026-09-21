@@ -114,95 +114,57 @@ Currently, my research interest includes:
 <h2 class="section-title"><span class="section-title__emoji" aria-hidden="true">🔥</span>News</h2>
 <div class="news-container">
 <div class="news-item">
-  <span class="news-date">Aug. 2026</span>&nbsp;&nbsp;
+  <span class="news-date">Aug. 2026</span>
   <span class="news-content">Our paper <strong>SVMemAgent: A Streaming Video Memory Agent for Query-Agnostic Online Frame Selection</strong> has been accepted to the Wearable AI Workshop at ECCV 2026!</span>
 </div>
 
 <div class="news-item">
-  <span class="news-date">Jul. 2026</span>&nbsp;&nbsp;
+  <span class="news-date">Jul. 2026</span>
   <span class="news-content">Our paper <strong>VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement</strong> has been accepted to ECCV 2026!</span>
 </div>
 
 <div class="news-item">
-  <span class="news-date">Feb. 2026</span>&nbsp;&nbsp;
+  <span class="news-date">Feb. 2026</span>
   <span class="news-content">Two papers, <strong>MoE-GRPO</strong> and <strong>DocPrune</strong>, have been accepted to CVPR 2026!</span>
 </div>
 
 <div class="news-item">
-  <span class="news-date">Jun. 2025</span>&nbsp;&nbsp;
+  <span class="news-date">Jun. 2025</span>
   <span class="news-content">Our paper <strong>Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval (BLiM)</strong> has been accepted to ICCV 2025 as a <strong>Highlight</strong>! (top 9.7%)</span>
 </div>
 
 <div class="news-item">
-  <span class="news-date">Sep. 2024</span>&nbsp;&nbsp;
+  <span class="news-date">Sep. 2024</span>
   <span class="news-content">Our paper <strong>LLaMo: Large Language Model-based Molecular Graph Assistant</strong> has been accepted to NeurIPS 2024!</span>
 </div>
 
 <div class="news-item">
-  <span class="news-date">Oct. 2023</span>&nbsp;&nbsp;
+  <span class="news-date">Oct. 2023</span>
   <span class="news-content">Our paper <strong>Large Language Models are Temporal and Causal Reasoners for Video Question Answering (Flipped-VQA)</strong> has been accepted to EMNLP 2023!</span>
 </div>
 
 <div class="news-item">
-  <span class="news-date">Jul. 2023</span>&nbsp;&nbsp;
+  <span class="news-date">Jul. 2023</span>
   <span class="news-content">Our paper <strong>Open-vocabulary Video Question Answering (OVQA)</strong> has been accepted to ICCV 2023!</span>
 </div>
 
 <div class="news-item">
-  <span class="news-date">Feb. 2023</span>&nbsp;&nbsp;
+  <span class="news-date">Feb. 2023</span>
   <span class="news-content">Our paper <strong>Meta Loss Transformer (MELTR)</strong> has been accepted to CVPR 2023!</span>
 </div>
 
 <div class="news-item">
-  <span class="news-date">Nov. 2022</span>&nbsp;&nbsp;
+  <span class="news-date">Nov. 2022</span>
   <span class="news-content">Our paper <strong>Randomly Shuffled Convolution for Self-Supervised Representation Learning (Croffle)</strong> has been accepted to Information Sciences!</span>
 </div>
 
 <div class="news-item">
-  <span class="news-date">Mar. 2022</span>&nbsp;&nbsp;
+  <span class="news-date">Mar. 2022</span>
   <span class="news-content">Our paper <strong>Video-Text Representation Learning via Differentiable Weak Alignment (VT-TWINS)</strong> has been accepted to CVPR 2022!</span>
 </div>
 
 <div class="news-item">
-  <span class="news-date">Oct. 2021</span>&nbsp;&nbsp;
+  <span class="news-date">Oct. 2021</span>
   <span class="news-content">Our paper <strong>Search-and-Attack: Temporally Sparse Adversarial Perturbations on Videos</strong> has been accepted to IEEE Access!</span>
 </div>
 </div>
-
-<style>
-.news-container {
-  max-height: 300px;
-  overflow-y: auto;
-  padding-right: 8px;
-}
-
-.news-container::-webkit-scrollbar {
-  width: 4px;
-}
-
-.news-container::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 4px;
-}
-
-.news-container::-webkit-scrollbar-thumb {
-  background: #C1121F;
-  border-radius: 4px;
-}
-
-.news-item {
-  display: flex;
-  margin-bottom: 16px;
-  align-items: baseline;
-}
-
-.news-date {
-  min-width: 80px;
-  font-weight: bold;
-  color: #C1121F;
-}
-
-.news-content {
-  flex: 1;
-}
-</style>
