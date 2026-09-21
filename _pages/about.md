@@ -26,28 +26,90 @@ Currently, my research interest includes:
 <span style="color: #C1121F;"><strong>I’m looking for my next position in the industry starting in 2027. If my profile aligns with your institution's needs, I would greatly appreciate the opportunity to connect. <br>Please feel free to reach out at ikodoh[AT]korea.ac.kr.</strong></span>
 
 <h2 class="section-title"><span class="section-title__emoji" aria-hidden="true">🎓</span>Education</h2>
-- **M.S & Ph.D** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #C1121F; text-decoratio.n: none;">**Korea University**</a>. \\
-Mar. 2021 -- Feb. 2027 (expected)
-
-- **B.S.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #C1121F; text-decoration.n: none;">**Korea University**</a>. \\
-Mar. 2017 -- Feb. 2021
+<div class="card-list">
+  <div class="info-card">
+    <div class="info-card__logo info-card__logo--glyph" aria-hidden="true">🎓</div>
+    <div class="info-card__body">
+      <div class="info-card__head">
+        <div>
+          <span class="info-card__org"><a class="stealth-link" href="https://www.korea.edu/mbshome/mbs/en/index.do" target="_blank" rel="noopener">Korea University</a></span>
+          <span class="info-card__place">Seoul, South Korea</span>
+        </div>
+        <span class="info-card__date">Mar. 2021 – Feb. 2027 (expected)</span>
+      </div>
+      <div class="info-card__role">M.S. &amp; Ph.D. in Computer Science and Engineering</div>
+    </div>
+  </div>
+  <div class="info-card">
+    <div class="info-card__logo info-card__logo--glyph" aria-hidden="true">🎓</div>
+    <div class="info-card__body">
+      <div class="info-card__head">
+        <div>
+          <span class="info-card__org"><a class="stealth-link" href="https://www.korea.edu/mbshome/mbs/en/index.do" target="_blank" rel="noopener">Korea University</a></span>
+          <span class="info-card__place">Seoul, South Korea</span>
+        </div>
+        <span class="info-card__date">Mar. 2017 – Feb. 2021</span>
+      </div>
+      <div class="info-card__role">B.S. in Computer Science and Engineering</div>
+    </div>
+  </div>
+</div>
 
 <h2 class="section-title"><span class="section-title__emoji" aria-hidden="true">🗂️</span>Work Experiences</h2>
-- <img src="../images/logo/meta.png" alt="Meta logo" style="height: 1em;"> **Meta** \\
-Menlo Park, CA, USA (April 2026 -- Jul. 2026)  \\
-Research Scientist Intern at Meta Reality Labs. 
-
-- <img src="../images/logo/meta.png" alt="Meta logo" style="height: 1em;"> **Meta** \\
-Menlo Park, CA, USA (Mar. 2025 -- Jun. 2025)  \\
-Research Scientist Intern at Meta Reality Labs. 
-
-- <img src="../images/logo/nec.png" alt="NEC logo" style="height: 2em;"> **NEC Labs America** \\
-San Jose, CA, USA (Jun. 2024 -- Aug. 2024) \\
-Research Scientist Intern at Media Analytics Team. 
-
-- <img src="../images/logo/naver.png" alt="NAVER logo" style="height: 1em;"> **NAVER** \\
-Seongnam, South Korea (Jul. 2020 -- Aug. 2020) \\
-Intern at User Feedback Platform. 
+<div class="card-list">
+  <div class="info-card">
+    <div class="info-card__logo"><img src="../images/logo/meta.png" alt="Meta logo"></div>
+    <div class="info-card__body">
+      <div class="info-card__head">
+        <div>
+          <span class="info-card__org">Meta</span>
+          <span class="info-card__place">Menlo Park, CA, USA</span>
+        </div>
+        <span class="info-card__date">April 2026 – Jul. 2026</span>
+      </div>
+      <div class="info-card__role">Research Scientist Intern, Meta Reality Labs</div>
+    </div>
+  </div>
+  <div class="info-card">
+    <div class="info-card__logo"><img src="../images/logo/meta.png" alt="Meta logo"></div>
+    <div class="info-card__body">
+      <div class="info-card__head">
+        <div>
+          <span class="info-card__org">Meta</span>
+          <span class="info-card__place">Menlo Park, CA, USA</span>
+        </div>
+        <span class="info-card__date">Mar. 2025 – Jun. 2025</span>
+      </div>
+      <div class="info-card__role">Research Scientist Intern, Meta Reality Labs</div>
+    </div>
+  </div>
+  <div class="info-card">
+    <div class="info-card__logo"><img src="../images/logo/nec.png" alt="NEC Labs America logo"></div>
+    <div class="info-card__body">
+      <div class="info-card__head">
+        <div>
+          <span class="info-card__org">NEC Labs America</span>
+          <span class="info-card__place">San Jose, CA, USA</span>
+        </div>
+        <span class="info-card__date">Jun. 2024 – Aug. 2024</span>
+      </div>
+      <div class="info-card__role">Research Scientist Intern, Media Analytics Team</div>
+    </div>
+  </div>
+  <div class="info-card">
+    <div class="info-card__logo"><img src="../images/logo/naver.png" alt="NAVER logo"></div>
+    <div class="info-card__body">
+      <div class="info-card__head">
+        <div>
+          <span class="info-card__org">NAVER</span>
+          <span class="info-card__place">Seongnam, South Korea</span>
+        </div>
+        <span class="info-card__date">Jul. 2020 – Aug. 2020</span>
+      </div>
+      <div class="info-card__role">Intern, User Feedback Platform</div>
+    </div>
+  </div>
+</div>
 
 <h2 class="section-title"><span class="section-title__emoji" aria-hidden="true">🔥</span>News</h2>
 <div class="news-container">
