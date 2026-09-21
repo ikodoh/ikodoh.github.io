@@ -23,18 +23,16 @@ Currently, my research interest includes:
   <a class="cta-btn cta-btn--linkedin" href="https://www.linkedin.com/in/dohwan-ko-4b232a14b" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg><span>LinkedIn</span></a>
 </div>
 
-<p class="cta-note">CV last updated Sep. 2026.</p>
-
 <span style="color: #C1121F;"><strong>I’m looking for my next position in the industry starting in 2027. If my profile aligns with your institution's needs, I would greatly appreciate the opportunity to connect. <br>Please feel free to reach out at ikodoh[AT]korea.ac.kr.</strong></span>
 
-## Education
+<h2 class="section-title"><span class="section-title__emoji" aria-hidden="true">🎓</span>Education</h2>
 - **M.S & Ph.D** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #C1121F; text-decoratio.n: none;">**Korea University**</a>. \\
-Mar. 2021 - Feb. 2027 (Expected)
+Mar. 2021 -- Feb. 2027 (expected)
 
 - **B.S.** in Computer Science and Engineering at <a href="https://www.korea.edu/mbshome/mbs/en/index.do" style="color: #C1121F; text-decoration.n: none;">**Korea University**</a>. \\
 Mar. 2017 -- Feb. 2021
 
-## Work Experiences
+<h2 class="section-title"><span class="section-title__emoji" aria-hidden="true">🗂️</span>Work Experiences</h2>
 - <img src="../images/logo/meta.png" alt="Meta logo" style="height: 1em;"> **Meta** \\
 Menlo Park, CA, USA (April 2026 -- Jul. 2026)  \\
 Research Scientist Intern at Meta Reality Labs. 
@@ -51,7 +49,7 @@ Research Scientist Intern at Media Analytics Team.
 Seongnam, South Korea (Jul. 2020 -- Aug. 2020) \\
 Intern at User Feedback Platform. 
 
-## News
+<h2 class="section-title"><span class="section-title__emoji" aria-hidden="true">🔥</span>News</h2>
 <div class="news-container">
 <div class="news-item">
   <span class="news-date">Aug. 2026</span>&nbsp;&nbsp;

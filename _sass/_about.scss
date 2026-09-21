@@ -1,10 +1,32 @@
 /* ==========================================================================
-   PROFILE CTA LINKS
+   ABOUT PAGE
    The CV / Scholar / GitHub / LinkedIn buttons on the About page, after
    onground-korea.github.io. Each pair clears WCAG AA (4.5:1) resting and
    on hover; the reference's own LinkedIn blue (#0277BD) sits at 4.34:1,
    so it is darkened to Material Light Blue 900.
    ========================================================================== */
+
+/* Section headings, after the reference's .section-title: the rule hugs the
+   text rather than spanning the column, so display is inline-block.
+   Qualified with h2 to match the specificity of the theme's
+   `.page__content h2`, which otherwise supplies a thin grey border; this
+   partial is imported after "page" in main.scss, so it wins on order. */
+h2.section-title {
+  display: inline-block;
+  margin: 2em 0 1em;
+  padding-bottom: 8px;
+  color: #101010;
+  font-size: $type-size-4;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  border-bottom: 3px solid #29b6f6;
+}
+
+.section-title__emoji {
+  margin-right: 0.3em;
+  font-size: 0.95em;
+  line-height: 1;
+}
 
 .cta-group {
   display: flex;
