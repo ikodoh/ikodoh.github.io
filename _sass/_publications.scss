@@ -1,0 +1,162 @@
+/* ==========================================================================
+   PUBLICATIONS
+   Card layout for /publications/. Scoped under .archive so it can override
+   the theme's `.archive a { text-decoration: underline }` rule without
+   resorting to !important.
+   ========================================================================== */
+
+$pub-card-border   : #eceff1;
+$pub-card-radius   : 8px;
+$pub-title-color   : #101010;
+$pub-venue-color   : #1a6fba;
+$pub-author-color  : #455a64;
+
+/* Button fills — kept identical to the previous inline styles */
+$pub-btn-arxiv     : rgb(139, 193, 229);
+$pub-btn-code      : #95adb6;
+$pub-btn-project   : rgb(139, 229, 154);
+$pub-btn-bibtex    : #dbc7be;
+
+.archive {
+
+  /* "* denotes equal contribution" */
+  .pub-note {
+    margin: -0.5em 0 1.5em;
+    color: mix(#fff, $text-color, 30%);
+    font-size: $type-size-6;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .pub-item {
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    background: #fff;
+    border: 1px solid $pub-card-border;
+    border-radius: $pub-card-radius;
+    box-shadow: 0 1px 3px rgba(#000, 0.05);
+    transition: box-shadow 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 4px 12px rgba(#000, 0.08);
+    }
+
+    @media (max-width: 575px) {
+      padding: 1em;
+    }
+  }
+
+  .pub-thumb {
+    margin-bottom: 0.5em;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    @media (min-width: 576px) {
+      margin-bottom: 0;
+    }
+  }
+
+  .pub-title {
+    margin: 0 0 0.4em;
+    color: $pub-title-color;
+    font-size: $type-size-5;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .pub-authors {
+    margin-bottom: 0.4em;
+    color: $pub-author-color;
+    font-size: $type-size-6;
+    line-height: 1.5;
+
+    .me {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }
+
+  .pub-venue {
+    margin-bottom: 0.75em;
+    color: $pub-venue-color;
+    font-size: $type-size-6;
+    font-weight: 700;
+  }
+
+  .pub-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2px 8px;
+    color: #dc2626;
+    font-size: 0.92em;
+    font-weight: 700;
+    vertical-align: middle;
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.25);
+    border-radius: 9999px;
+  }
+
+  .pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  /* Applies to both <a> links and the <button> that toggles bibtex, so the
+     button element's UA defaults (border, background, font) are reset here. */
+  .pub-btn {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 14px;
+    color: #fff;
+    font-family: $global-font-family;
+    font-size: $type-size-7;
+    font-weight: 700;
+    line-height: 1.4;
+    text-decoration: none;
+    border: 0;
+    border-radius: 9999px;
+    box-shadow: 0 1px 2px rgba(#000, 0.05);
+    cursor: pointer;
+    appearance: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+      text-decoration: none;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(#000, 0.12);
+    }
+
+    &:focus-visible {
+      outline: 2px solid $pub-venue-color;
+      outline-offset: 2px;
+    }
+  }
+
+  .pub-btn--arxiv   { background-color: $pub-btn-arxiv; }
+  .pub-btn--code    { background-color: $pub-btn-code; }
+  .pub-btn--project { background-color: $pub-btn-project; }
+  .pub-btn--bibtex  { background-color: $pub-btn-bibtex; }
+
+  .pub-bibtex {
+    margin-top: 0.75em;
+
+    pre {
+      margin: 0;
+      padding: 0.75em 1em;
+      background: #fafafa;
+      border: 1px solid $pub-card-border;
+      border-radius: 4px;
+      font-size: $type-size-7;
+    }
+  }
+}
